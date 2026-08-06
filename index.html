@@ -446,13 +446,15 @@
   orca: { vb:'-182 -100 315 185', len:315, svg:
     '<path fill="url(#fg)" d="M6 -34 Q10 -78 0 -92 Q-6 -62 -22 -36 Q-8 -34 6 -34 Z"/>'
     +'<path fill="url(#bg)" d="M120 4 Q112 -10 96 -20 Q60 -36 8 -38 Q-50 -36 -96 -22 Q-120 -12 -128 0 Q-120 12 -96 20 Q-52 32 8 32 Q64 30 100 18 Q114 12 120 8 Q116 6 120 4 Z"/>'
-    +'<path fill="{BL}" opacity="0.92" d="M118 8 Q84 26 24 29 Q-44 31 -94 20 Q-118 12 -126 2 Q-116 20 -74 27 Q-14 35 46 29 Q92 24 118 8 Z"/>'
-    +'<path fill="{BL}" opacity="0.92" d="M-4 27 Q4 8 22 0 Q12 16 10 28 Q3 28 -4 27 Z"/>'
-    +'<ellipse cx="82" cy="-16" rx="15" ry="6.5" fill="{BL}" opacity="0.95" transform="rotate(-12 82 -16)"/>'
+    +'<path fill="{BL}" opacity="0.95" d="M118 8 Q84 26 24 29 Q-44 31 -94 20 Q-118 12 -126 2 Q-116 20 -74 27 Q-14 35 46 29 Q92 24 118 8 Z"/>'
+    +'<path fill="{BL}" opacity="0.95" d="M-4 27 Q4 8 22 0 Q12 16 10 28 Q3 28 -4 27 Z"/>'
+    +'<ellipse cx="82" cy="-16" rx="16" ry="7" fill="{BL}" opacity="0.98" transform="rotate(-12 82 -16)"/>'
+    +'<circle cx="98" cy="-8" r="10" fill="#ffffff" opacity="0.85"/>'
+    +'<circle cx="88" cy="6" r="8" fill="#ffffff" opacity="0.80"/>'
     +'<path fill="url(#fg)" d="M52 20 Q52 46 36 60 Q22 66 12 62 Q26 48 30 22 Q40 18 52 20 Z"/>'
     +'<path fill="url(#fg)" d="M-128 0 Q-140 -8 -150 -20 Q-160 -30 -174 -36 Q-164 -19 -160 -6 Q-164 -2 -172 0 Q-164 2 -159 2 Q-164 14 -176 34 Q-158 27 -144 14 Q-134 6 -128 6 Q-127 3 -128 0 Z"/>'
     +'<path class="mo" d="M118 6 Q100 12 80 13"/>'
-    + eye(98,-2,4) },
+    + eye(98,-2,5) },
 
   whale: { vb:'-262 -110 480 220', len:480, svg:
     '<path fill="url(#fg)" d="M-56 -54 Q-52 -80 -38 -86 Q-42 -68 -32 -54 Q-44 -51 -56 -54 Z"/>'
@@ -464,7 +466,37 @@
     +'<path fill="url(#fg)" d="M-182 2 Q-196 -6 -208 -18 Q-228 -38 -256 -50 Q-240 -26 -232 -8 Q-237 -2 -248 0 Q-238 4 -230 4 Q-236 22 -258 52 Q-228 40 -206 22 Q-192 12 -184 10 Q-183 6 -182 2 Z"/>'
     +'<g fill="{F}" opacity="0.8"><circle cx="180" cy="8" r="2.6"/><circle cx="188" cy="16" r="2.4"/><circle cx="172" cy="0" r="2.4"/><circle cx="162" cy="-8" r="2.2"/><circle cx="150" cy="-14" r="2"/></g>'
     +'<path class="mo" stroke-width="2.2" d="M194 20 Q122 38 32 40"/>'
-    + eye(144,16,6) }
+    + eye(144,16,6) },
+
+  hammerhead: { vb:'-160 -85 300 170', len:300, svg:
+    '<g transform="translate(-90,0) scale(-1,1)"><path fill="url(#fg)" d="M-48 -22 Q-42 -38 -28 -40 Q-20 -40 -16 -35 Q-24 -30 -32 -26 Q-40 -22 -48 -22 Z"/>'
+    +'<path class="ray" d="M-42 -24 L-36 -36"/><path class="ray" d="M-30 -27 L-24 -37"/></g>'
+    +'<path fill="url(#fg)" d="M-56 18 Q-62 32 -74 34 Q-68 24 -66 16 Q-60 16 -56 18 Z"/>'
+    +'<path fill="url(#fg)" d="M4 22 Q-2 36 -14 40 Q-10 28 -8 20 Q-2 20 4 22 Z"/>'
+    +'<path fill="url(#bg)" d="M110 0 Q88 -8 64 -12 Q20 -18 -30 -16 Q-80 -14 -100 0 Q-80 14 -30 16 Q20 18 64 12 Q88 8 110 2 Q104 1 110 0 Z"/>'
+    +'<path fill="#ffffff" opacity="0.14" d="M96 -8 Q40 -14 -20 -13 Q-70 -11 -96 -2 Q-50 -10 10 -11 Q60 -11 96 -8 Z"/>'
+    +'<g stroke="{F}" stroke-width="0.9" opacity="0.35" fill="none"><line x1="60" y1="-6" x2="58" y2="6"/><line x1="40" y1="-8" x2="38" y2="8"/><line x1="20" y1="-9" x2="18" y2="9"/><line x1="0" y1="-10" x2="-2" y2="10"/><line x1="-20" y1="-10" x2="-22" y2="10"/><line x1="-40" y1="-9" x2="-42" y2="9"/></g>'
+    +'<path fill="url(#fg)" d="M-98 0 Q-110 -13 -124 -18 Q-118 -8 -117 0 Q-118 8 -124 18 Q-110 13 -98 0 Z"/>'
+    +'<path class="ray" d="M-104 -4 L-118 -12"/><path class="ray" d="M-104 4 L-118 12"/>'
+    +'<path fill="url(#ch)" d="M72 -10 A24 18 0 0 0 72 12 A20 18 0 0 1 62 1 A20 18 0 0 1 72 -10 Z"/>'
+    +'<g fill="{R}" opacity="0.6"><circle cx="76" cy="-8" r="2.2"/><circle cx="76" cy="8" r="2.2"/></g>'
+    +'<path class="mo" d="M104 2 Q88 6 72 7"/>'
+    + eye(88,-4,4.8) },
+
+  leopardseal: { vb:'-140 -60 300 120', len:300, svg:
+    '<g transform="translate(-60,0) scale(-1,1)"><path fill="url(#fg)" d="M-42 -18 Q-36 -32 -22 -34 Q-14 -34 -10 -29 Q-20 -24 -28 -20 Q-36 -17 -42 -18 Z"/>'
+    +'<path class="ray" d="M-36 -20 L-30 -30"/><path class="ray" d="M-24 -23 L-18 -31"/></g>'
+    +'<path fill="url(#fg)" d="M-44 16 Q-50 28 -62 30 Q-54 22 -52 14 Q-46 14 -44 16 Z"/>'
+    +'<path fill="url(#fg)" d="M8 16 Q2 28 -10 32 Q-6 22 -4 14 Q2 14 8 16 Z"/>'
+    +'<path fill="url(#bg)" d="M112 0 Q100 -10 82 -16 Q50 -26 0 -24 Q-50 -22 -80 -12 Q-100 -6 -106 0 Q-100 6 -80 12 Q-50 22 0 24 Q50 26 82 16 Q100 10 112 2 Q106 1 112 0 Z"/>'
+    +'<path fill="#ffffff" opacity="0.12" d="M98 -8 Q40 -18 -30 -16 Q-80 -12 -102 -2 Q-54 -12 14 -14 Q68 -14 98 -8 Z"/>'
+    +'<g fill="{R}" opacity="0.55"><circle cx="70" cy="-8" r="2.4"/><circle cx="50" cy="6" r="2.2"/><circle cx="28" cy="-10" r="2.3"/><circle cx="4" cy="8" r="2.1"/><circle cx="-20" cy="-9" r="2.2"/><circle cx="-44" cy="5" r="2.1"/><circle cx="36" cy="14" r="2"/></g>'
+    +'<path fill="url(#fg)" d="M-104 0 Q-116 -14 -130 -20 Q-124 -8 -122 0 Q-124 8 -130 20 Q-116 14 -104 0 Z"/>'
+    +'<path class="ray" d="M-110 -4 L-124 -12"/><path class="ray" d="M-110 4 L-124 12"/>'
+    +'<path fill="url(#ch)" d="M74 -12 A26 20 0 0 0 74 14 A22 20 0 0 1 63 1 A22 20 0 0 1 74 -12 Z"/>'
+    +'<path class="sp" d="M72 -13 Q62 1 72 15" opacity="0.4"/>'
+    +'<path class="mo" d="M108 2 Q90 8 70 9"/>'
+    + eye(90,-6,5) }
   };
 
   // rasterized sprite cache for the current palette
@@ -761,10 +793,12 @@
     { type:'catfish', weight:2, size:[60,84], speed:[8,16], nearBottom:true },
     { type:'carp', weight:1.5, size:[56,78], speed:[8,15], nearBottom:true },
     { type:'sturgeon', weight:0.8, size:[86,120], speed:[7,13], nearBottom:true },
-    { type:'shark', weight:0.8, size:[100,140], speed:[22,34], depthFt:[10,30] },
-    { type:'greatwhite', weight:0.5, size:[130,180], speed:[20,32], depthFt:[10,30] },
-    { type:'orca', weight:0.4, size:[160,220], speed:[16,26], depthFt:[6,24] },
-    { type:'whale', weight:0.3, size:[210,280], speed:[8,14], depthFt:[8,26] }
+    { type:'shark', weight:4, size:[100,140], speed:[22,34], depthFt:[10,30] },
+    { type:'hammerhead', weight:3, size:[110,160], speed:[18,30], depthFt:[12,32] },
+    { type:'greatwhite', weight:5, size:[160,220], speed:[20,32], depthFt:[28,50] },
+    { type:'orca', weight:8, size:[200,280], speed:[16,26], depthFt:[8,28] },
+    { type:'leopardseal', weight:2.5, size:[140,200], speed:[20,28], depthFt:[6,20] },
+    { type:'whale', weight:4, size:[210,280], speed:[8,14], depthFt:[8,26] }
   ];
   var totalWeight = creatureTypes.reduce(function(s,c){return s+c.weight;},0);
   function pickCreatureType(){
@@ -788,18 +822,25 @@
     for (var i=0;i<count;i++){
       var size = rand(c.size[0], c.size[1]);
       var depth = c.nearBottom ? null : (c.cluster ? clusterDepth + rand(-2.5,2.5) : rand(c.depthFt[0], c.depthFt[1]));
-      liveFish.push({
+      var baseSpeed = rand(c.speed[0], c.speed[1]) * dir;
+      var fish = {
         type: c.type,
         gid: gid,
         x: fromLeft ? -size - rand(0,60) : plotW + size + rand(0,60),
         depth: depth,
         nearBottom: !!c.nearBottom,
         size: size,
-        speed: rand(c.speed[0], c.speed[1]) * dir,
+        speed: baseSpeed,
+        baseSpeed: baseSpeed,
         bobPhase: rand(0,Math.PI*2),
         bobAmp: c.nearBottom ? 0.4 : rand(0.6,1.6),
-        blipped: (c.cluster && i > 0)
-      });
+        blipped: (c.cluster && i > 0),
+        speedPhase: rand(0, Math.PI*2),
+        speedFreq: rand(1.2, 2.4),
+        speedMin: rand(0.5, 0.75),
+        speedMax: rand(1.1, 1.35)
+      };
+      liveFish.push(fish);
     }
   }
 
@@ -816,12 +857,15 @@
     creatureTimer += dt;
     if (creatureTimer >= nextCreatureAt){
       creatureTimer = 0;
-      nextCreatureAt = rand(2.5, 6);
-      // keep it uncrowded but lively: up to 3 creatures (a school counts as one)
-      if (countUnits() < 3) spawnCreature();
+      nextCreatureAt = rand(1.5, 3.5);
+      // keep it uncrowded but lively: up to 5 creatures (a school counts as one)
+      if (countUnits() < 5) spawnCreature();
     }
     for (var i=liveFish.length-1;i>=0;i--){
       var f = liveFish[i];
+      var speedModulation = (f.speedMax - f.speedMin) / 2;
+      var speedMid = (f.speedMax + f.speedMin) / 2;
+      f.speed = f.baseSpeed * (speedMid + speedModulation * Math.sin(t * f.speedFreq + f.speedPhase));
       f.x += f.speed * dt;
       var curDepth;
       if (f.nearBottom){
