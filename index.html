@@ -911,7 +911,8 @@
     spawnSelect.appendChild(opt);
   });
   spawnBtn.addEventListener('click', function(){
-    spawnQueue.push(spawnSelect.value || pickCreatureType().type);
+    spawnQueue.unshift(spawnSelect.value || pickCreatureType().type);
+    spawnCreature();
   });
 
   var liveFish = [];
