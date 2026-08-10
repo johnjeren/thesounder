@@ -236,328 +236,252 @@
 
   var SPRITES = {
 
-  bass: { vb:'-145 -78 250 140', len:250, svg:
-    '<g transform="translate(-40,0) scale(-1,1)"><path fill="url(#fg)" d="M-52 -34 Q-40 -58 -22 -60 Q-2 -60 12 -50 Q0 -46 -10 -40 Q-30 -32 -52 -34 Z"/>'
-    +'<path class="ray" d="M-46 -36 L-38 -54"/><path class="ray" d="M-36 -37 L-28 -57"/><path class="ray" d="M-26 -38 L-18 -58"/><path class="ray" d="M-16 -40 L-8 -55"/><path class="ray" d="M-6 -42 L2 -52"/></g>'
-    +'<g transform="translate(-150,0) scale(-1,1)"><path fill="url(#fg)" d="M-56 -32 Q-70 -46 -84 -42 Q-92 -38 -94 -28 Q-80 -26 -66 -28 Q-60 -30 -56 -32 Z"/>'
-    +'<path class="ray" d="M-64 -30 L-72 -42"/><path class="ray" d="M-74 -29 L-82 -40"/></g>'
-    +'<path fill="url(#fg)" d="M-58 26 Q-66 42 -80 42 Q-72 32 -68 24 Q-62 24 -58 26 Z"/>'
-    +'<path fill="url(#fg)" d="M6 30 Q0 46 -12 50 Q-8 38 -6 28 Q0 28 6 30 Z"/>'
-    +'<path fill="url(#bg)" d="M96 -2 Q88 -12 74 -20 Q48 -36 8 -38 Q-40 -38 -76 -24 Q-100 -14 -106 0 Q-100 14 -76 24 Q-40 38 8 38 Q48 36 74 20 Q88 12 96 4 Q92 1 96 -2 Z"/>'
-    +'<path fill="#ffffff" opacity="0.14" d="M80 -14 Q40 -30 -10 -30 Q-60 -28 -92 -12 Q-50 -24 0 -26 Q50 -26 80 -14 Z"/>'
-    +'<path stroke="{F}" stroke-width="4" opacity="0.35" fill="none" d="M84 0 Q30 6 -30 4 Q-70 2 -96 0"/>'
-    +'<path fill="url(#fg)" d="M-104 0 Q-118 -18 -136 -26 Q-130 -12 -128 0 Q-130 12 -136 26 Q-118 18 -104 0 Z"/>'
-    +'<path class="ray" d="M-110 -6 L-128 -18"/><path class="ray" d="M-112 0 L-126 0"/><path class="ray" d="M-110 6 L-128 18"/>'
-    +'<path fill="url(#ch)" d="M52 -22 A30 30 0 0 0 52 24 A26 30 0 0 1 40 0 A26 30 0 0 1 52 -22 Z"/>'
-    +'<path class="sp" d="M50 -24 Q38 0 50 26"/><path class="sp" d="M58 -20 Q48 0 58 22" opacity="0.3"/>'
-    +'<path class="mo" d="M96 -2 Q80 6 62 8"/>'
-    +'<path fill="{R}" opacity="0.35" d="M96 -2 Q80 5 64 7 Q80 10 92 6 Z"/>'
-    + eye(74,-14,6.5) },
+  bass: { vb:'-142 -68 250 126', len:250, svg:
+    '<path fill="url(#fg)" d="M-52 -31 Q-42 -52 -16 -57 L18 -56 Q8 -49 4 -40 Q-24 -34 -52 -31 Z"/>'
+    +'<path class="ray" d="M-43 -34 L-34 -49 M-30 -37 L-20 -54 M-16 -39 L-6 -55 M-2 -40 L9 -53"/>'
+    +'<path fill="url(#fg)" d="M10 -39 Q30 -50 49 -43 Q38 -35 22 -30 Z"/>'
+    +'<path fill="url(#fg)" d="M-47 26 Q-60 43 -75 42 Q-66 31 -62 23 Z"/>'
+    +'<path fill="url(#fg)" d="M31 24 Q22 43 5 48 Q13 34 14 22 Z"/>'
+    +'<path fill="url(#bg)" d="M100 -8 Q94 -23 70 -31 Q26 -44 -25 -38 Q-71 -33 -103 -13 L-108 1 Q-98 18 -61 29 Q-12 42 38 33 Q73 27 91 13 Q99 7 104 1 Q94 -1 80 1 Q93 -3 100 -8 Z"/>'
+    +'<path fill="url(#fg)" d="M-103 -7 Q-120 -27 -137 -34 Q-130 -14 -128 0 Q-132 17 -140 31 Q-119 24 -103 8 Z"/>'
+    +'<path stroke="{F}" stroke-width="5" opacity="0.35" fill="none" d="M83 6 Q18 13 -74 8"/>'
+    +'<path class="sp" d="M58 -28 Q47 0 57 25"/>'
+    +'<path class="mo" stroke-width="2.4" d="M103 1 Q82 15 59 14 Q75 8 84 1"/>'
+    + eye(76,-15,6) },
 
-  bluegill: { vb:'-100 -75 175 150', len:175, svg:
-    '<g transform="translate(-18,0) scale(-1,1)"><path fill="url(#fg)" d="M-38 -30 Q-30 -58 -12 -64 Q6 -66 20 -56 Q10 -50 2 -44 Q-16 -32 -38 -30 Z"/>'
-    +'<path class="ray" d="M-32 -33 L-24 -56"/><path class="ray" d="M-22 -36 L-14 -61"/><path class="ray" d="M-12 -39 L-4 -61"/><path class="ray" d="M-2 -42 L8 -57"/></g>'
-    +'<g transform="translate(-20,0) scale(-1,1)"><path fill="url(#fg)" d="M-34 30 Q-28 54 -8 58 Q4 58 14 52 Q2 46 -8 40 Q-22 33 -34 30 Z"/>'
-    +'<path class="ray" d="M-26 34 L-18 52"/><path class="ray" d="M-14 37 L-6 54"/></g>'
-    +'<path fill="url(#fg)" d="M22 8 Q14 24 0 30 Q6 18 8 6 Q16 6 22 8 Z"/>'
-    +'<path fill="url(#bg)" d="M64 -4 Q58 -22 40 -33 Q18 -44 -10 -43 Q-44 -40 -60 -22 Q-68 -10 -68 0 Q-68 10 -60 22 Q-44 40 -10 43 Q18 44 40 33 Q58 22 64 6 Q61 1 64 -4 Z"/>'
-    +'<path fill="#ffffff" opacity="0.13" d="M50 -22 Q20 -36 -16 -34 Q-48 -30 -60 -14 Q-30 -30 6 -32 Q34 -32 50 -22 Z"/>'
-    +'<g stroke="{F}" stroke-width="3" opacity="0.22" fill="none"><path d="M28 -30 Q26 0 28 30"/><path d="M10 -38 Q8 0 10 38"/><path d="M-10 -40 Q-12 0 -10 40"/><path d="M-30 -34 Q-32 0 -30 34"/></g>'
-    +'<path fill="url(#fg)" d="M-66 0 Q-78 -14 -92 -18 Q-87 -8 -86 0 Q-87 8 -92 18 Q-78 14 -66 0 Z"/>'
-    +'<path class="ray" d="M-72 -4 L-86 -12"/><path class="ray" d="M-72 4 L-86 12"/>'
-    +'<path fill="url(#ch)" d="M34 -20 A26 28 0 0 0 34 20 A22 28 0 0 1 24 0 A22 28 0 0 1 34 -20 Z"/>'
-    +'<path class="sp" d="M32 -22 Q22 0 32 22"/>'
-    +'<ellipse cx="24" cy="14" rx="7" ry="5" fill="{R}" opacity="0.75" transform="rotate(-30 24 14)"/>'
-    +'<path class="mo" d="M64 -4 Q56 2 46 3"/>'
-    + eye(46,-14,6) },
+  bluegill: { vb:'-94 -73 170 146', len:170, svg:
+    '<path fill="url(#fg)" d="M-52 -27 Q-40 -55 -10 -65 Q18 -67 39 -48 Q22 -43 8 -37 Q-23 -29 -52 -27 Z"/>'
+    +'<path class="ray" d="M-43 -31 L-31 -53 M-28 -35 L-14 -61 M-12 -37 L2 -63 M5 -38 L20 -58"/>'
+    +'<path fill="url(#fg)" d="M-47 29 Q-31 58 1 65 Q24 65 37 52 Q15 45 -2 38 Q-27 30 -47 29 Z"/>'
+    +'<path fill="url(#bg)" d="M67 -4 Q61 -27 41 -42 Q18 -57 -13 -54 Q-48 -51 -66 -26 Q-75 -12 -74 4 Q-70 26 -47 43 Q-22 58 10 54 Q39 50 56 30 Q67 17 69 5 Z"/>'
+    +'<path fill="url(#fg)" d="M-69 2 Q-81 -15 -91 -20 Q-87 -7 -86 3 Q-88 15 -93 23 Q-80 18 -68 9 Z"/>'
+    +'<g stroke="{F}" stroke-width="4" opacity="0.28" fill="none"><path d="M19 -48 Q11 0 18 48"/><path d="M-3 -53 Q-12 0 -4 53"/><path d="M-25 -49 Q-34 0 -27 48"/></g>'
+    +'<path fill="url(#ch)" d="M38 -35 Q24 -4 39 34 Q49 23 52 7 Q51 -18 38 -35 Z"/>'
+    +'<path fill="{R}" d="M36 8 Q24 17 31 31 Q43 28 48 17 Z"/>'
+    +'<path fill="{A}" opacity="0.7" d="M31 21 Q38 24 44 19 Q40 29 32 29 Z"/>'
+    +'<path class="mo" d="M68 -3 Q59 4 49 5"/>'
+    + eye(49,-20,6) },
 
-  sunfish: { vb:'-100 -75 175 150', len:170, svg:
-    '<g transform="translate(-16,0) scale(-1,1)"><path fill="url(#fg)" d="M-36 -30 Q-28 -56 -10 -62 Q8 -64 20 -54 Q10 -48 2 -42 Q-14 -32 -36 -30 Z"/>'
-    +'<path class="ray" d="M-30 -33 L-22 -54"/><path class="ray" d="M-18 -37 L-10 -59"/><path class="ray" d="M-4 -41 L4 -55"/></g>'
-    +'<g transform="translate(-18,0) scale(-1,1)"><path fill="url(#fg)" d="M-32 30 Q-26 52 -6 56 Q6 56 14 50 Q2 44 -8 38 Q-20 32 -32 30 Z"/></g>'
-    +'<path fill="url(#fg)" d="M22 8 Q14 24 0 30 Q6 18 8 6 Q16 6 22 8 Z"/>'
-    +'<path fill="url(#bg)" d="M62 -4 Q56 -22 38 -32 Q16 -42 -10 -41 Q-42 -38 -58 -20 Q-66 -10 -66 0 Q-66 10 -58 20 Q-42 38 -10 41 Q16 42 38 32 Q56 22 62 6 Q59 1 62 -4 Z"/>'
-    +'<path fill="#ffffff" opacity="0.13" d="M48 -20 Q18 -34 -16 -32 Q-46 -28 -58 -12 Q-28 -28 6 -30 Q32 -30 48 -20 Z"/>'
-    +'<g fill="{A}" opacity="0.35"><circle cx="26" cy="-10" r="2"/><circle cx="12" cy="6" r="2"/><circle cx="-4" cy="-14" r="2"/><circle cx="-18" cy="10" r="2"/><circle cx="-32" cy="-8" r="2"/><circle cx="2" cy="20" r="1.8"/><circle cx="20" cy="16" r="1.8"/><circle cx="-38" cy="14" r="1.8"/></g>'
-    +'<path fill="url(#fg)" d="M-64 0 Q-76 -14 -90 -18 Q-85 -8 -84 0 Q-85 8 -90 18 Q-76 14 -64 0 Z"/>'
-    +'<path fill="url(#ch)" d="M32 -18 A24 26 0 0 0 32 20 A20 26 0 0 1 22 1 A20 26 0 0 1 32 -18 Z"/>'
-    +'<path class="sp" d="M30 -20 Q20 1 30 22"/>'
-    +'<ellipse cx="22" cy="14" rx="6.5" ry="4.5" fill="{R}" opacity="0.75" transform="rotate(-30 22 14)"/>'
-    +'<circle cx="26" cy="16" r="1.8" fill="{A}" opacity="0.9"/>'
-    +'<path class="mo" d="M62 -4 Q54 2 44 3"/>'
-    + eye(44,-13,5.6) },
+  sunfish: { vb:'-91 -76 166 150', len:166, svg:
+    '<path fill="url(#fg)" d="M-49 -29 Q-37 -58 -8 -68 Q17 -68 37 -52 Q19 -45 5 -38 Q-24 -30 -49 -29 Z"/>'
+    +'<path class="ray" d="M-39 -34 L-28 -56 M-23 -37 L-10 -64 M-6 -40 L8 -65 M11 -41 L25 -58"/>'
+    +'<path fill="url(#fg)" d="M-48 28 Q-34 57 -5 66 Q20 68 37 53 Q17 47 2 39 Q-24 30 -48 28 Z"/>'
+    +'<path fill="url(#bg)" d="M66 -3 Q59 -27 38 -43 Q13 -58 -17 -54 Q-51 -49 -67 -24 Q-75 -10 -73 7 Q-67 31 -44 46 Q-18 59 12 53 Q41 47 57 27 Q67 14 68 4 Z"/>'
+    +'<path fill="url(#fg)" d="M-68 3 Q-80 -14 -89 -19 Q-86 -6 -84 4 Q-87 16 -91 23 Q-78 19 -67 10 Z"/>'
+    +'<g fill="{A}" opacity="0.55"><circle cx="22" cy="-31" r="2.3"/><circle cx="3" cy="-40" r="2"/><circle cx="-17" cy="-34" r="2.4"/><circle cx="-36" cy="-21" r="2"/><circle cx="-42" cy="6" r="2.4"/><circle cx="-22" cy="27" r="2"/><circle cx="5" cy="34" r="2.2"/><circle cx="28" cy="19" r="2"/></g>'
+    +'<path fill="url(#ch)" d="M37 -34 Q24 -3 39 33 Q49 22 51 7 Q50 -18 37 -34 Z"/>'
+    +'<path fill="{R}" d="M34 7 Q23 16 29 30 Q42 28 47 16 Z"/>'
+    +'<path fill="{A}" d="M29 24 Q36 28 43 20 Q40 31 30 30 Z"/>'
+    +'<path class="mo" d="M67 -3 Q58 4 49 5"/>'
+    + eye(48,-19,5.8) },
 
-  crappie: { vb:'-105 -78 185 156', len:185, svg:
-    '<g transform="translate(-26,0) scale(-1,1)"><path fill="url(#fg)" d="M-40 -28 Q-34 -54 -16 -62 Q0 -66 14 -58 Q4 -50 -4 -44 Q-20 -32 -40 -28 Z"/>'
-    +'<path class="ray" d="M-34 -31 L-26 -52"/><path class="ray" d="M-24 -35 L-16 -58"/><path class="ray" d="M-12 -40 L-4 -58"/><path class="ray" d="M0 -44 L8 -55"/></g>'
-    +'<g transform="translate(-22,0) scale(-1,1)"><path fill="url(#fg)" d="M-38 28 Q-32 52 -12 60 Q4 64 16 56 Q4 48 -4 42 Q-20 32 -38 28 Z"/>'
-    +'<path class="ray" d="M-30 32 L-22 50"/><path class="ray" d="M-16 37 L-8 55"/></g>'
-    +'<path fill="url(#fg)" d="M24 8 Q16 24 2 30 Q8 18 10 6 Q18 6 24 8 Z"/>'
-    +'<path fill="url(#bg)" d="M68 -4 Q60 -22 42 -32 Q18 -42 -12 -41 Q-46 -38 -62 -20 Q-70 -10 -70 0 Q-70 10 -62 20 Q-46 38 -12 41 Q18 42 42 32 Q60 22 68 6 Q64 1 68 -4 Z"/>'
-    +'<path fill="#ffffff" opacity="0.13" d="M54 -20 Q22 -34 -16 -32 Q-50 -28 -62 -12 Q-30 -28 6 -30 Q36 -30 54 -20 Z"/>'
-    +'<g fill="{F}" opacity="0.4"><circle cx="34" cy="-12" r="1.7"/><circle cx="20" cy="4" r="1.6"/><circle cx="6" cy="-18" r="1.7"/><circle cx="-8" cy="10" r="1.6"/><circle cx="-24" cy="-10" r="1.7"/><circle cx="-38" cy="6" r="1.6"/><circle cx="12" cy="18" r="1.5"/><circle cx="-16" cy="24" r="1.5"/><circle cx="26" cy="22" r="1.5"/><circle cx="-2" cy="-30" r="1.5"/></g>'
-    +'<path fill="url(#fg)" d="M-68 0 Q-80 -15 -95 -20 Q-89 -9 -88 0 Q-89 9 -95 20 Q-80 15 -68 0 Z"/>'
-    +'<path class="ray" d="M-74 -4 L-88 -13"/><path class="ray" d="M-74 4 L-88 13"/>'
-    +'<path fill="url(#ch)" d="M36 -18 A25 27 0 0 0 36 20 A21 27 0 0 1 26 1 A21 27 0 0 1 36 -18 Z"/>'
-    +'<path class="sp" d="M34 -20 Q24 1 34 22"/>'
-    +'<path class="mo" d="M68 -4 Q58 3 46 4"/>'
-    + eye(48,-14,6) },
+  crappie: { vb:'-101 -75 182 148', len:182, svg:
+    '<path fill="url(#fg)" d="M-58 -25 Q-48 -53 -20 -65 Q13 -72 47 -48 Q26 -43 7 -35 Q-26 -27 -58 -25 Z"/>'
+    +'<path class="ray" d="M-49 -30 L-39 -50 M-35 -33 L-23 -60 M-20 -35 L-7 -65 M-4 -37 L10 -65 M13 -37 L28 -59"/>'
+    +'<path fill="url(#fg)" d="M-54 28 Q-42 55 -11 66 Q19 70 43 52 Q21 47 1 39 Q-29 30 -54 28 Z"/>'
+    +'<path fill="url(#bg)" d="M72 -7 Q64 -30 40 -43 Q9 -58 -26 -52 Q-61 -46 -77 -22 Q-85 -9 -81 7 Q-72 29 -45 44 Q-13 57 21 49 Q50 42 66 24 Q75 14 76 5 Q64 -1 52 -1 Q65 -4 72 -7 Z"/>'
+    +'<path fill="url(#fg)" d="M-76 1 Q-89 -15 -99 -20 Q-94 -7 -93 3 Q-95 15 -100 23 Q-87 18 -75 10 Z"/>'
+    +'<g fill="{F}" opacity="0.62"><circle cx="35" cy="-27" r="3"/><circle cx="17" cy="-37" r="2.7"/><circle cx="-5" cy="-35" r="3.2"/><circle cx="-28" cy="-28" r="2.8"/><circle cx="-49" cy="-14" r="3"/><circle cx="28" cy="10" r="2.7"/><circle cx="4" cy="23" r="3.1"/><circle cx="-24" cy="18" r="2.6"/><circle cx="-48" cy="7" r="2.8"/></g>'
+    +'<path class="sp" d="M40 -40 Q29 -2 40 36"/>'
+    +'<path class="mo" stroke-width="2.2" d="M75 4 Q61 14 45 11 Q58 5 62 -1"/>'
+    + eye(51,-20,6) },
 
-  perch: { vb:'-120 -62 215 124', len:215, svg:
-    '<g transform="translate(12,0) scale(-1,1)"><path fill="url(#fg)" d="M-14 -26 Q-8 -48 8 -52 Q18 -52 26 -46 Q16 -40 8 -34 Q-4 -27 -14 -26 Z"/>'
-    +'<path class="ray" d="M-8 -29 L0 -46"/><path class="ray" d="M4 -33 L12 -48"/><path class="ray" d="M16 -37 L22 -45"/></g>'
-    +'<g transform="translate(-66,0) scale(-1,1)"><path fill="url(#fg)" d="M-48 -22 Q-44 -38 -30 -40 Q-22 -40 -18 -35 Q-26 -30 -32 -26 Q-40 -22 -48 -22 Z"/>'
-    +'<path class="ray" d="M-42 -24 L-36 -36"/><path class="ray" d="M-30 -27 L-24 -37"/></g>'
-    +'<path fill="url(#fg)" d="M-44 20 Q-50 34 -62 36 Q-56 26 -54 18 Q-48 18 -44 20 Z"/>'
-    +'<path fill="url(#fg)" d="M10 20 Q4 34 -8 38 Q-4 26 -2 18 Q4 18 10 20 Z"/>'
-    +'<path fill="url(#bg)" d="M92 -2 Q84 -10 70 -15 Q42 -24 2 -25 Q-42 -24 -74 -14 Q-92 -8 -98 0 Q-92 8 -74 14 Q-42 24 2 25 Q42 24 70 15 Q84 10 92 4 Q88 1 92 -2 Z"/>'
-    +'<path fill="#ffffff" opacity="0.12" d="M80 -10 Q36 -20 -20 -19 Q-66 -17 -94 -6 Q-48 -15 10 -17 Q52 -17 80 -10 Z"/>'
-    +'<g stroke="{F}" stroke-width="4.5" opacity="0.35" fill="none"><path d="M52 -18 Q49 0 52 18"/><path d="M30 -22 Q27 0 30 22"/><path d="M6 -24 Q3 0 6 24"/><path d="M-18 -23 Q-21 0 -18 23"/><path d="M-42 -20 Q-45 0 -42 20"/><path d="M-64 -15 Q-67 0 -64 15"/></g>'
-    +'<path fill="url(#fg)" d="M-96 0 Q-108 -15 -122 -20 Q-117 -9 -116 0 Q-117 9 -122 20 Q-108 15 -96 0 Z"/>'
-    +'<path class="ray" d="M-102 -4 L-116 -13"/><path class="ray" d="M-102 4 L-116 13"/>'
-    +'<path fill="url(#ch)" d="M60 -14 A23 20 0 0 0 60 16 A19 20 0 0 1 51 1 A19 20 0 0 1 60 -14 Z"/>'
-    +'<path class="sp" d="M58 -15 Q49 1 58 17"/>'
-    +'<path class="mo" d="M92 -2 Q80 4 68 5"/>'
-    + eye(74,-8,5.4) },
+  perch: { vb:'-124 -60 224 118', len:224, svg:
+    '<path fill="url(#fg)" d="M-38 -24 Q-31 -49 -9 -54 Q11 -55 25 -42 Q8 -36 -8 -28 Z"/>'
+    +'<path class="ray" d="M-30 -28 L-22 -46 M-17 -30 L-8 -51 M-4 -31 L6 -52 M10 -33 L19 -46"/>'
+    +'<path fill="url(#fg)" d="M30 -31 Q43 -43 61 -38 Q51 -31 40 -26 Z"/>'
+    +'<path fill="url(#fg)" d="M-45 22 Q-54 39 -69 41 Q-61 30 -59 20 Z"/>'
+    +'<path fill="url(#fg)" d="M27 23 Q18 40 2 43 Q10 31 12 21 Z"/>'
+    +'<path fill="url(#bg)" d="M92 -4 Q83 -18 59 -26 Q23 -36 -21 -32 Q-68 -29 -96 -10 Q-103 -4 -99 4 Q-85 19 -50 27 Q-5 37 38 29 Q72 23 90 10 Q97 5 96 1 Z"/>'
+    +'<path fill="url(#fg)" d="M-96 -4 Q-109 -20 -122 -25 Q-117 -10 -116 0 Q-118 12 -123 22 Q-108 18 -97 7 Z"/>'
+    +'<g stroke="{F}" stroke-width="6" opacity="0.5"><path d="M55 -24 Q47 0 54 23"/><path d="M31 -30 Q22 0 30 30"/><path d="M6 -33 Q-3 0 5 33"/><path d="M-20 -32 Q-28 0 -21 31"/><path d="M-45 -27 Q-52 0 -46 26"/></g>'
+    +'<path class="sp" d="M62 -24 Q52 0 61 21"/>'
+    +'<path class="mo" d="M95 1 Q82 8 69 8"/>'
+    + eye(73,-14,5.4) },
 
-  trout: { vb:'-145 -55 265 110', len:265, svg:
-    '<g transform="translate(14,0) scale(-1,1)"><path fill="url(#fg)" d="M-16 -26 Q-8 -44 10 -46 Q22 -46 30 -40 Q20 -34 12 -30 Q-2 -26 -16 -26 Z"/>'
-    +'<path class="ray" d="M-8 -28 L0 -42"/><path class="ray" d="M4 -30 L12 -43"/><path class="ray" d="M16 -32 L24 -40"/></g>'
-    +'<path fill="url(#fg)" d="M-64 -20 Q-70 -28 -78 -27 Q-74 -21 -70 -18 Q-66 -18 -64 -20 Z"/>'
-    +'<path fill="url(#fg)" d="M-56 18 Q-62 32 -74 34 Q-68 24 -66 16 Q-60 16 -56 18 Z"/>'
-    +'<path fill="url(#fg)" d="M4 22 Q-2 36 -14 40 Q-10 28 -8 20 Q-2 20 4 22 Z"/>'
-    +'<path fill="url(#fg)" d="M56 14 Q50 26 38 30 Q42 20 44 12 Q50 12 56 14 Z"/>'
-    +'<path fill="url(#bg)" d="M108 -2 Q98 -10 84 -15 Q50 -26 4 -27 Q-48 -26 -84 -16 Q-104 -10 -110 0 Q-104 10 -84 16 Q-48 26 4 27 Q50 26 84 15 Q98 10 108 4 Q104 1 108 -2 Z"/>'
-    +'<path fill="#ffffff" opacity="0.13" d="M94 -10 Q44 -22 -20 -21 Q-76 -19 -102 -8 Q-56 -17 10 -19 Q64 -19 94 -10 Z"/>'
-    +'<path stroke="{A}" stroke-width="6" opacity="0.30" fill="none" d="M96 2 Q30 8 -40 6 Q-84 4 -106 2"/>'
-    +'<g fill="{R}" opacity="0.5"><circle cx="60" cy="-14" r="1.4"/><circle cx="40" cy="-19" r="1.3"/><circle cx="16" cy="-16" r="1.5"/><circle cx="-8" cy="-20" r="1.2"/><circle cx="-32" cy="-15" r="1.4"/><circle cx="-56" cy="-17" r="1.2"/><circle cx="-76" cy="-11" r="1.3"/><circle cx="28" cy="-8" r="1.1"/><circle cx="-20" cy="-9" r="1.2"/><circle cx="-64" cy="-6" r="1.1"/></g>'
-    +'<path fill="url(#fg)" d="M-108 0 Q-120 -16 -134 -22 Q-129 -10 -128 0 Q-129 10 -134 22 Q-120 16 -108 0 Z"/>'
-    +'<path class="ray" d="M-114 -5 L-128 -14"/><path class="ray" d="M-115 0 L-127 0"/><path class="ray" d="M-114 5 L-128 14"/>'
-    +'<path fill="url(#ch)" d="M66 -14 A24 22 0 0 0 66 18 A20 22 0 0 1 56 2 A20 22 0 0 1 66 -14 Z"/>'
-    +'<path class="sp" d="M64 -16 Q54 2 64 20"/>'
-    +'<path class="mo" d="M108 -2 Q94 4 80 5"/>'
-    + eye(86,-9,5.6) },
+  trout: { vb:'-148 -56 270 110', len:270, svg:
+    '<path fill="url(#fg)" d="M-25 -23 Q-13 -43 11 -46 Q31 -46 45 -36 Q25 -31 6 -26 Z"/>'
+    +'<path fill="url(#fg)" d="M-75 -21 Q-68 -31 -57 -30 Q-62 -23 -66 -19 Z"/>'
+    +'<path fill="url(#fg)" d="M-56 20 Q-66 36 -82 37 Q-72 27 -70 18 Z"/>'
+    +'<path fill="url(#fg)" d="M20 22 Q10 39 -7 41 Q2 30 4 20 Z"/>'
+    +'<path fill="url(#bg)" d="M111 -5 Q101 -17 78 -23 Q34 -34 -17 -30 Q-69 -27 -106 -12 Q-116 -6 -112 2 Q-101 15 -67 24 Q-18 36 35 29 Q78 24 101 13 Q111 8 116 2 Z"/>'
+    +'<path fill="url(#fg)" d="M-108 -5 Q-123 -22 -140 -28 Q-133 -12 -131 0 Q-134 14 -142 27 Q-123 22 -109 7 Z"/>'
+    +'<path stroke="{A}" stroke-width="7" opacity="0.38" fill="none" d="M102 4 Q31 13 -83 7"/>'
+    +'<g fill="{R}" opacity="0.65"><circle cx="62" cy="-17" r="2"/><circle cx="37" cy="-23" r="1.8"/><circle cx="12" cy="-21" r="2"/><circle cx="-14" cy="-23" r="1.8"/><circle cx="-40" cy="-19" r="2"/><circle cx="-67" cy="-15" r="1.8"/><circle cx="43" cy="-8" r="1.7"/><circle cx="2" cy="-9" r="1.7"/><circle cx="-39" cy="-7" r="1.7"/></g>'
+    +'<path class="sp" d="M72 -22 Q62 0 71 21"/>'
+    +'<path class="mo" d="M114 1 Q99 8 84 8"/>'
+    + eye(87,-14,5.4) },
 
-  pike: { vb:'-130 -42 255 84', len:255, svg:
-    '<g transform="translate(-78,0) scale(-1,1)"><path fill="url(#fg)" d="M-58 -14 Q-52 -30 -36 -32 Q-26 -32 -20 -27 Q-30 -22 -38 -18 Q-48 -14 -58 -14 Z"/>'
-    +'<path class="ray" d="M-50 -16 L-44 -28"/><path class="ray" d="M-38 -18 L-32 -29"/></g>'
-    +'<g transform="translate(-78,0) scale(-1,1)"><path fill="url(#fg)" d="M-58 14 Q-52 30 -36 32 Q-26 32 -20 27 Q-30 22 -38 18 Q-48 14 -58 14 Z"/></g>'
-    +'<path fill="url(#fg)" d="M6 14 Q0 26 -12 30 Q-8 20 -6 12 Q0 12 6 14 Z"/>'
-    +'<path fill="url(#bg)" d="M118 -3 Q106 -8 92 -9 Q80 -12 62 -13 Q10 -17 -46 -15 Q-84 -13 -100 0 Q-84 13 -46 15 Q10 17 62 13 Q80 12 92 9 Q106 8 118 4 Q112 0 118 -3 Z"/>'
-    +'<path fill="#ffffff" opacity="0.12" d="M104 -6 Q40 -13 -40 -12 Q-84 -10 -98 -2 Q-50 -10 20 -11 Q70 -11 104 -6 Z"/>'
-    +'<g fill="{A}" opacity="0.35"><ellipse cx="60" cy="-4" rx="3.4" ry="1.8"/><ellipse cx="40" cy="4" rx="3.2" ry="1.7"/><ellipse cx="18" cy="-6" rx="3.4" ry="1.8"/><ellipse cx="-4" cy="5" rx="3.2" ry="1.7"/><ellipse cx="-26" cy="-5" rx="3.4" ry="1.8"/><ellipse cx="-48" cy="4" rx="3.2" ry="1.7"/><ellipse cx="-68" cy="-3" rx="3" ry="1.6"/><ellipse cx="30" cy="8" rx="2.8" ry="1.5"/><ellipse cx="-14" cy="-8" rx="2.8" ry="1.5"/></g>'
-    +'<path fill="url(#fg)" d="M-98 0 Q-110 -14 -124 -19 Q-119 -8 -118 0 Q-119 8 -124 19 Q-110 14 -98 0 Z"/>'
-    +'<path class="ray" d="M-104 -4 L-118 -12"/><path class="ray" d="M-104 4 L-118 12"/>'
-    +'<path fill="url(#ch)" d="M72 -10 A22 16 0 0 0 72 12 A18 16 0 0 1 63 1 A18 16 0 0 1 72 -10 Z"/>'
-    +'<path class="sp" d="M70 -11 Q61 1 70 13"/>'
-    +'<path class="mo" d="M118 -3 Q100 3 82 4"/>'
-    +'<path fill="{R}" opacity="0.3" d="M118 -3 Q102 2 84 3 Q100 6 114 3 Z"/>'
-    + eye(92,-6,4.8) },
+  pike: { vb:'-145 -47 280 92', len:280, svg:
+    '<path fill="url(#fg)" d="M-69 -16 Q-58 -34 -37 -36 Q-20 -35 -11 -27 Q-30 -22 -51 -18 Z"/>'
+    +'<path fill="url(#fg)" d="M-72 15 Q-60 34 -37 35 Q-21 34 -12 27 Q-33 22 -52 18 Z"/>'
+    +'<path fill="url(#fg)" d="M-6 14 Q-16 29 -31 31 Q-22 21 -20 12 Z"/>'
+    +'<path fill="url(#bg)" d="M92 -15 L126 -13 Q134 -9 132 -2 L128 8 Q113 12 91 10 Q69 18 22 19 Q-39 21 -94 13 Q-111 9 -116 1 Q-108 -10 -76 -16 Q-14 -26 48 -21 Q76 -19 92 -15 Z"/>'
+    +'<path fill="url(#fg)" d="M-111 0 Q-124 -18 -141 -25 Q-135 -10 -133 0 Q-136 12 -143 24 Q-124 19 -111 7 Z"/>'
+    +'<g fill="{A}" opacity="0.5"><ellipse cx="61" cy="-8" rx="4" ry="2"/><ellipse cx="36" cy="7" rx="4" ry="2"/><ellipse cx="8" cy="-10" rx="4" ry="2"/><ellipse cx="-20" cy="7" rx="4" ry="2"/><ellipse cx="-48" cy="-8" rx="4" ry="2"/><ellipse cx="-73" cy="6" rx="3.5" ry="1.8"/></g>'
+    +'<path class="sp" d="M77 -17 Q68 -1 75 14"/>'
+    +'<path class="mo" stroke-width="2" d="M132 -2 Q111 3 87 2"/>'
+    +'<g fill="{R}" opacity="0.8"><path d="M119 2 l3 4 l3 -5 Z"/><path d="M110 3 l3 4 l3 -5 Z"/><path d="M101 3 l3 4 l3 -5 Z"/></g>'
+    + eye(98,-9,4.8) },
 
-  gar: { vb:'-125 -35 265 70', len:265, svg:
-    '<g transform="translate(-92,0) scale(-1,1)"><path fill="url(#fg)" d="M-62 -11 Q-56 -25 -42 -26 Q-34 -26 -30 -21 Q-38 -17 -46 -14 Q-54 -11 -62 -11 Z"/>'
-    +'<path class="ray" d="M-54 -13 L-48 -23"/></g>'
-    +'<g transform="translate(-96,0) scale(-1,1)"><path fill="url(#fg)" d="M-64 11 Q-58 25 -44 26 Q-36 26 -32 21 Q-40 17 -48 14 Q-56 11 -64 11 Z"/></g>'
-    +'<path fill="url(#bg)" d="M132 -1 Q118 -3 104 -4 Q88 -6 72 -7 Q20 -12 -44 -11 Q-80 -9 -96 0 Q-80 9 -44 11 Q20 12 72 7 Q88 6 104 4 Q118 3 132 1 Q126 0 132 -1 Z"/>'
-    +'<path fill="#ffffff" opacity="0.11" d="M116 -3 Q40 -9 -40 -8 Q-80 -7 -94 -1 Q-46 -7 24 -8 Q76 -8 116 -3 Z"/>'
-    +'<g stroke="{F}" stroke-width="0.9" opacity="0.35"><line x1="60" y1="-6" x2="58" y2="6"/><line x1="40" y1="-8" x2="38" y2="8"/><line x1="20" y1="-9" x2="18" y2="9"/><line x1="0" y1="-10" x2="-2" y2="10"/><line x1="-20" y1="-10" x2="-22" y2="10"/><line x1="-40" y1="-9" x2="-42" y2="9"/></g>'
-    +'<path fill="url(#fg)" d="M-94 0 Q-104 -13 -118 -17 Q-112 -7 -111 0 Q-112 7 -118 17 Q-104 13 -94 0 Z"/>'
-    +'<path class="ray" d="M-100 -4 L-111 -11"/><path class="ray" d="M-100 4 L-111 11"/>'
-    +'<path class="mo" d="M132 -1 Q108 2 84 2" stroke-width="1.3"/>'
-    +'<g stroke="{R}" stroke-width="0.7" opacity="0.5"><line x1="126" y1="0" x2="126" y2="2"/><line x1="118" y1="0.5" x2="118" y2="2.5"/><line x1="110" y1="1" x2="110" y2="3"/><line x1="102" y1="1.2" x2="102" y2="3"/></g>'
-    + eye(76,-3,3.6) },
+  gar: { vb:'-172 -42 330 82', len:330, svg:
+    '<path fill="url(#fg)" d="M-96 -12 Q-85 -29 -65 -30 Q-51 -29 -42 -23 Q-62 -18 -81 -14 Z"/>'
+    +'<path fill="url(#fg)" d="M-98 11 Q-86 28 -66 29 Q-51 28 -43 22 Q-64 18 -82 13 Z"/>'
+    +'<path fill="url(#bg)" d="M72 -10 L147 -8 Q155 -5 155 -1 Q154 4 146 6 L70 7 Q46 14 -11 15 Q-74 16 -123 10 Q-143 7 -148 0 Q-139 -8 -108 -12 Q-34 -23 38 -17 Q58 -15 72 -10 Z"/>'
+    +'<path fill="url(#fg)" d="M-144 0 Q-155 -16 -169 -22 Q-164 -9 -162 0 Q-164 10 -170 21 Q-154 16 -144 6 Z"/>'
+    +'<g fill="none" stroke="{F}" stroke-width="1.5" opacity="0.55"><path d="M55 -11 L44 8 M36 -14 L25 11 M17 -16 L6 13 M-2 -17 L-13 13 M-21 -17 L-32 13 M-40 -16 L-51 13 M-59 -15 L-70 12 M-78 -14 L-89 11"/></g>'
+    +'<path class="mo" stroke-width="1.6" d="M154 -1 Q119 2 72 1"/>'
+    +'<g fill="{R}" opacity="0.85"><path d="M142 1 l3 3 l3 -3 Z"/><path d="M130 1 l3 3 l3 -3 Z"/><path d="M118 1 l3 3 l3 -3 Z"/><path d="M106 1 l3 3 l3 -3 Z"/></g>'
+    + eye(61,-8,4.2) },
 
-  catfish: { vb:'-130 -55 265 110', len:265, svg:
-    '<g transform="translate(30,0) scale(-1,1)"><path fill="url(#fg)" d="M6 -26 Q10 -44 22 -48 Q26 -38 24 -28 Q16 -26 6 -26 Z"/>'
-    +'<path class="ray" d="M12 -28 L18 -42"/></g>'
-    +'<path fill="url(#fg)" d="M-52 -18 Q-58 -26 -68 -25 Q-63 -19 -58 -16 Q-55 -16 -52 -18 Z"/>'
-    +'<path fill="url(#fg)" d="M-64 16 Q-40 30 -8 28 Q-24 22 -40 19 Q-54 16 -64 16 Z"/>'
-    +'<path class="ray" d="M-48 19 L-44 26"/><path class="ray" d="M-30 21 L-26 27"/>'
-    +'<path fill="url(#fg)" d="M52 16 Q46 30 32 34 Q38 24 40 14 Q46 14 52 16 Z"/>'
-    +'<path fill="url(#bg)" d="M100 -1 Q94 -14 78 -21 Q54 -29 24 -28 Q-24 -26 -66 -16 Q-92 -10 -98 0 Q-90 10 -60 14 Q-16 18 30 17 Q64 15 84 8 Q94 5 100 3 Q97 1 100 -1 Z"/>'
-    +'<path fill="#ffffff" opacity="0.11" d="M86 -12 Q40 -24 -20 -21 Q-70 -16 -94 -6 Q-50 -16 14 -19 Q58 -20 86 -12 Z"/>'
-    +'<g fill="{R}" opacity="0.4"><circle cx="40" cy="-8" r="1.6"/><circle cx="12" cy="-12" r="1.4"/><circle cx="-16" cy="-8" r="1.6"/><circle cx="-44" cy="-6" r="1.4"/><circle cx="24" cy="2" r="1.3"/><circle cx="-4" cy="4" r="1.4"/><circle cx="-32" cy="3" r="1.3"/></g>'
-    +'<path fill="url(#fg)" d="M-96 0 Q-108 -16 -124 -23 Q-118 -10 -117 0 Q-118 10 -124 23 Q-108 16 -96 0 Z"/>'
-    +'<path class="ray" d="M-102 -5 L-117 -15"/><path class="ray" d="M-102 5 L-117 15"/>'
-    +'<path fill="url(#ch)" d="M62 -14 A24 20 0 0 0 62 16 A20 20 0 0 1 52 1 A20 20 0 0 1 62 -14 Z"/>'
-    +'<path class="sp" d="M60 -15 Q50 1 60 17"/>'
-    +'<path class="mo" d="M100 -1 Q84 6 66 7"/>'
-    +'<g stroke="{A}" stroke-width="1.8" stroke-linecap="round" fill="none">'
-    +'<path d="M98 2 Q112 10 122 22"/><path d="M92 5 Q102 16 106 28"/><path d="M97 -4 Q114 -8 126 -2"/><path d="M86 6 Q90 18 88 26" stroke-width="1.4"/></g>'
-    + eye(76,-12,4) },
+  catfish: { vb:'-143 -64 288 126', len:288, svg:
+    '<path fill="url(#fg)" d="M15 -25 Q18 -49 35 -53 Q42 -39 37 -25 Z"/>'
+    +'<path fill="url(#fg)" d="M-63 -20 Q-52 -31 -38 -29 Q-45 -22 -52 -18 Z"/>'
+    +'<path fill="url(#fg)" d="M-69 19 Q-39 35 -4 34 Q-24 27 -49 20 Z"/>'
+    +'<path fill="url(#fg)" d="M41 18 Q25 40 4 43 Q18 29 20 16 Z"/>'
+    +'<path fill="url(#bg)" d="M94 -18 Q119 -17 130 -8 L132 4 Q123 15 94 21 Q51 31 -10 25 Q-70 20 -102 11 Q-116 6 -118 0 Q-110 -10 -83 -18 Q-22 -35 46 -28 Q77 -25 94 -18 Z"/>'
+    +'<path fill="url(#fg)" d="M-114 0 Q-127 -20 -141 -27 Q-136 -11 -134 0 Q-137 14 -143 26 Q-126 20 -114 7 Z"/>'
+    +'<path fill="{R}" opacity="0.35" d="M79 -16 Q37 -24 -28 -19 Q14 -26 79 -16 Z"/>'
+    +'<path class="mo" stroke-width="2.3" d="M131 3 Q108 12 82 10"/>'
+    +'<g fill="{A}"><path d="M126 -5 Q139 -15 143 -28 Q139 -11 128 -1 Z"/><path d="M130 2 Q142 12 144 27 Q138 12 127 6 Z"/><path d="M119 8 Q130 22 128 37 Q124 22 115 11 Z"/><path d="M109 10 Q116 27 110 41 Q110 25 105 12 Z"/><path d="M119 -10 Q131 -21 133 -34 Q129 -20 116 -7 Z"/></g>'
+    + eye(94,-15,4.8) },
 
-  carp: { vb:'-115 -68 205 136', len:205, svg:
-    '<g transform="translate(34,0) scale(-1,1)"><path fill="url(#fg)" d="M-6 -32 Q0 -56 20 -58 Q32 -58 40 -50 Q28 -44 18 -40 Q6 -34 -6 -32 Z"/>'
-    +'<path class="ray" d="M0 -35 L8 -52"/><path class="ray" d="M12 -38 L20 -54"/><path class="ray" d="M26 -42 L32 -50"/></g>'
-    +'<path fill="url(#fg)" d="M-46 26 Q-52 42 -66 44 Q-58 34 -56 24 Q-50 24 -46 26 Z"/>'
-    +'<path fill="url(#fg)" d="M12 28 Q6 42 -8 46 Q-2 34 0 24 Q6 24 12 28 Z"/>'
-    +'<path fill="url(#bg)" d="M78 -2 Q70 -18 52 -28 Q26 -40 -8 -38 Q-48 -34 -66 -16 Q-74 -8 -74 0 Q-74 8 -66 16 Q-48 34 -8 38 Q26 40 52 28 Q70 18 78 4 Q74 1 78 -2 Z"/>'
-    +'<path fill="#ffffff" opacity="0.12" d="M64 -16 Q28 -32 -14 -30 Q-52 -26 -66 -10 Q-34 -26 4 -28 Q40 -28 64 -16 Z"/>'
-    +'<g stroke="{F}" stroke-width="0.9" opacity="0.4" fill="none">'
-    +'<path d="M50 -20 Q46 -12 50 -4 M50 -4 Q46 4 50 12 M38 -26 Q34 -16 38 -6 M38 -6 Q34 4 38 14 M38 14 Q34 22 38 28 M24 -30 Q20 -18 24 -6 M24 -6 Q20 6 24 18 M24 18 Q20 26 24 32 M8 -32 Q4 -20 8 -8 M8 -8 Q4 4 8 16 M8 16 Q4 26 8 34 M-8 -32 Q-12 -20 -8 -8 M-8 -8 Q-12 4 -8 16 M-8 16 Q-12 26 -8 34 M-24 -28 Q-28 -16 -24 -4 M-24 -4 Q-28 8 -24 18 M-24 18 Q-28 26 -24 30 M-40 -22 Q-44 -12 -40 -2 M-40 -2 Q-44 8 -40 16 M-54 -14 Q-58 -6 -54 2 M-54 2 Q-58 8 -54 14"/></g>'
-    +'<path fill="url(#fg)" d="M-72 0 Q-84 -16 -100 -22 Q-94 -10 -93 0 Q-94 10 -100 22 Q-84 16 -72 0 Z"/>'
-    +'<path class="ray" d="M-78 -5 L-93 -14"/><path class="ray" d="M-78 5 L-93 14"/>'
-    +'<path fill="url(#ch)" d="M40 -18 A26 24 0 0 0 40 20 A22 24 0 0 1 29 1 A22 24 0 0 1 40 -18 Z"/>'
-    +'<path class="sp" d="M38 -19 Q28 1 38 21"/>'
-    +'<path class="mo" d="M78 0 Q70 6 60 7"/>'
-    +'<g stroke="{A}" stroke-width="1.5" stroke-linecap="round" fill="none"><path d="M74 4 Q84 10 88 16"/><path d="M70 7 Q76 14 78 20"/></g>'
-    + eye(56,-12,5) },
+  carp: { vb:'-120 -71 214 140', len:214, svg:
+    '<path fill="url(#fg)" d="M-38 -35 Q-21 -62 15 -65 Q43 -63 57 -48 Q29 -43 4 -37 Z"/>'
+    +'<path class="ray" d="M-27 -39 L-14 -57 M-10 -41 L4 -62 M8 -42 L23 -61 M27 -41 L42 -56"/>'
+    +'<path fill="url(#fg)" d="M-49 28 Q-60 47 -76 47 Q-66 35 -63 25 Z"/>'
+    +'<path fill="url(#fg)" d="M20 29 Q7 49 -12 51 Q0 37 2 26 Z"/>'
+    +'<path fill="url(#bg)" d="M81 -4 Q72 -26 49 -40 Q18 -57 -20 -51 Q-60 -45 -78 -21 Q-87 -9 -84 5 Q-75 27 -46 41 Q-12 55 24 47 Q55 40 72 22 Q82 12 86 3 Z"/>'
+    +'<path fill="url(#fg)" d="M-80 0 Q-94 -18 -108 -24 Q-103 -10 -101 0 Q-104 13 -110 24 Q-93 19 -80 8 Z"/>'
+    +'<g fill="none" stroke="{F}" stroke-width="1.2" opacity="0.55"><path d="M49 -34 Q39 -23 49 -11 Q39 1 49 13 M29 -45 Q18 -31 29 -17 Q18 -2 29 14 Q19 28 29 40 M7 -50 Q-4 -34 7 -18 Q-5 -2 7 15 Q-3 31 7 46 M-16 -49 Q-28 -33 -17 -17 Q-29 -1 -17 16 Q-27 30 -18 46 M-39 -42 Q-51 -28 -41 -13 Q-52 2 -41 18 Q-49 31 -41 38 M-59 -31 Q-70 -18 -61 -5 Q-70 8 -61 23"/></g>'
+    +'<path class="sp" d="M52 -39 Q39 0 51 36"/>'
+    +'<path class="mo" d="M85 3 Q76 11 64 9"/>'
+    +'<g stroke="{A}" stroke-width="1.6" stroke-linecap="round" fill="none"><path d="M78 9 Q88 16 90 24"/><path d="M70 10 Q77 19 77 26"/></g>'
+    + eye(62,-19,5.2) },
 
-  sturgeon: { vb:'-125 -45 260 90', len:260, svg:
-    '<g transform="translate(-24,0) scale(-1,1)"><path fill="url(#fg)" d="M-30 -14 Q-24 -32 -8 -34 Q0 -34 6 -29 Q-4 -24 -12 -20 Q-22 -15 -30 -14 Z"/>'
-    +'<path class="ray" d="M-24 -17 L-18 -29"/><path class="ray" d="M-12 -20 L-6 -30"/></g>'
-    +'<path fill="url(#fg)" d="M-16 14 Q-22 28 -36 30 Q-28 22 -26 12 Q-20 12 -16 14 Z"/>'
-    +'<path fill="url(#fg)" d="M34 14 Q28 28 14 32 Q20 22 22 12 Q28 12 34 14 Z"/>'
-    +'<path fill="url(#bg)" d="M126 2 Q114 -4 100 -6 Q80 -10 56 -12 Q8 -15 -42 -13 Q-78 -11 -92 0 Q-78 11 -42 13 Q8 15 56 11 Q80 9 100 7 Q114 6 126 6 Q120 4 126 2 Z"/>'
-    +'<path fill="#ffffff" opacity="0.11" d="M110 -2 Q40 -11 -40 -10 Q-78 -8 -90 -1 Q-44 -9 24 -10 Q76 -10 110 -2 Z"/>'
-    +'<g fill="{A}" opacity="0.45"><path d="M-50 -12 l4 -5 l4 5 z"/><path d="M-28 -13 l4 -5 l4 5 z"/><path d="M-6 -14 l4 -5 l4 5 z"/><path d="M16 -13 l4 -5 l4 5 z"/><path d="M38 -12 l4 -5 l4 5 z"/><path d="M60 -10 l4 -5 l4 5 z"/></g>'
-    +'<g fill="{A}" opacity="0.3"><path d="M-44 1 l3 -3.5 l3 3.5 z"/><path d="M-20 2 l3 -3.5 l3 3.5 z"/><path d="M4 2 l3 -3.5 l3 3.5 z"/><path d="M28 1 l3 -3.5 l3 3.5 z"/><path d="M52 0 l3 -3.5 l3 3.5 z"/></g>'
-    +'<path fill="url(#fg)" d="M-90 0 Q-96 -16 -112 -30 Q-108 -14 -107 -4 Q-110 4 -118 12 Q-104 10 -90 4 Q-92 2 -90 0 Z"/>'
-    +'<path class="mo" d="M118 8 Q106 11 94 11" stroke-width="1.4"/>'
-    +'<g stroke="{A}" stroke-width="1.4" stroke-linecap="round" fill="none"><path d="M112 8 q2 6 0 10"/><path d="M106 9 q2 6 0 10"/><path d="M100 9 q2 6 0 10"/><path d="M94 9 q2 6 0 10"/></g>'
-    + eye(88,-4,3.4) },
+  sturgeon: { vb:'-153 -56 305 110', len:305, svg:
+    '<path fill="url(#fg)" d="M-25 -22 Q-12 -41 12 -43 Q28 -42 38 -34 Q19 -29 1 -24 Z"/>'
+    +'<path fill="url(#fg)" d="M-37 18 Q-48 34 -64 35 Q-55 25 -52 16 Z"/>'
+    +'<path fill="url(#fg)" d="M29 19 Q14 38 -5 40 Q7 28 9 17 Z"/>'
+    +'<path fill="url(#bg)" d="M133 -8 Q126 -18 106 -23 Q60 -34 2 -31 Q-61 -29 -105 -17 Q-128 -11 -135 -1 Q-127 10 -103 17 Q-54 30 12 29 Q72 27 112 17 Q130 12 140 5 Q132 1 115 -1 Q127 -4 133 -8 Z"/>'
+    +'<path fill="url(#fg)" d="M-131 -2 Q-139 -22 -146 -42 Q-147 -20 -144 -8 Q-150 5 -153 20 Q-142 15 -130 7 Z"/>'
+    +'<g fill="{A}" stroke="{R}" stroke-width="0.7"><path d="M-91 -20 l7 -7 l7 7 l-7 5 Z"/><path d="M-63 -26 l7 -7 l7 7 l-7 5 Z"/><path d="M-34 -29 l7 -7 l7 7 l-7 5 Z"/><path d="M-5 -31 l7 -7 l7 7 l-7 5 Z"/><path d="M24 -30 l7 -7 l7 7 l-7 5 Z"/><path d="M53 -27 l7 -7 l7 7 l-7 5 Z"/><path d="M81 -23 l7 -7 l7 7 l-7 5 Z"/></g>'
+    +'<g fill="{A}" opacity="0.7"><path d="M-82 0 l5 -5 l5 5 l-5 4 Z"/><path d="M-49 2 l5 -5 l5 5 l-5 4 Z"/><path d="M-16 3 l5 -5 l5 5 l-5 4 Z"/><path d="M17 3 l5 -5 l5 5 l-5 4 Z"/><path d="M50 1 l5 -5 l5 5 l-5 4 Z"/></g>'
+    +'<path class="mo" d="M126 11 Q112 16 97 15"/>'
+    +'<g stroke="{A}" stroke-width="1.6" stroke-linecap="round" fill="none"><path d="M117 12 q3 8 0 16"/><path d="M109 14 q3 8 0 16"/><path d="M101 15 q3 8 0 16"/><path d="M93 15 q3 8 0 16"/></g>'
+    + eye(104,-11,4) },
 
-  baitfish: { vb:'-24 -11 44 22', len:44, svg:
-    '<path fill="url(#bg)" d="M16 0 Q10 -6 -2 -6 Q-12 -5 -17 0 Q-12 5 -2 6 Q10 6 16 0 Z"/>'
-    +'<path fill="#ffffff" opacity="0.2" d="M12 -2 Q2 -5 -12 -3 Q0 -4 12 -2 Z"/>'
-    +'<path fill="url(#fg)" d="M-16 0 L-23 -5 L-19 0 L-23 5 Z"/>'
-    +'<path class="sp" d="M6 -4 Q4 0 6 4" stroke-width="0.7"/>'
-    +'<circle fill="{R}" cx="10" cy="-1.4" r="1.7"/><circle fill="{BL}" cx="10" cy="-1.4" r="1.1"/><circle fill="{D}" cx="10.3" cy="-1.4" r="0.6"/>' },
+  baitfish: { vb:'-27 -13 50 26', len:50, svg:
+    '<path fill="url(#fg)" d="M-20 0 L-27 -9 L-25 0 L-27 9 Z"/>'
+    +'<path fill="url(#bg)" d="M20 -1 Q14 -8 2 -9 Q-11 -8 -21 0 Q-11 8 2 9 Q14 8 21 1 Z"/>'
+    +'<path fill="{A}" opacity="0.55" d="M16 2 Q1 6 -15 2 Q1 4 16 2 Z"/>'
+    +'<path fill="url(#fg)" d="M-4 -7 Q1 -12 8 -10 L4 -7 Z"/>'
+    +'<path class="mo" stroke-width="0.7" d="M21 1 L15 2"/>'
+    + eye(14,-3,1.8) },
 
-  shark: { vb:'-148 -80 275 135', len:275, svg:
-    '<path fill="url(#fg)" d="M28 -19 Q18 -50 -2 -64 Q-2 -40 -14 -22 Q6 -20 28 -19 Z"/>'
-    +'<path fill="url(#fg)" d="M-60 -13 Q-64 -27 -74 -31 Q-71 -21 -77 -12 Q-68 -12 -60 -13 Z"/>'
-    +'<path fill="url(#fg)" d="M36 12 Q20 36 -8 50 Q6 30 16 12 Q26 11 36 12 Z"/>'
-    +'<path fill="url(#fg)" d="M-28 13 Q-35 25 -48 29 Q-40 19 -40 12 Q-34 12 -28 13 Z"/>'
-    +'<path fill="url(#bg)" d="M120 1 Q106 -8 88 -13 Q52 -21 8 -21 Q-40 -19 -80 -12 Q-100 -7 -110 0 Q-100 8 -78 12 Q-38 17 10 16 Q54 14 90 9 Q108 5 120 4 Q115 2 120 1 Z"/>'
-    +'<path fill="#ffffff" opacity="0.18" d="M104 7 Q44 15 -50 12 Q-92 9 -106 3 Q-62 12 8 14 Q66 14 104 7 Z"/>'
-    +'<path stroke="{F}" stroke-width="1.3" opacity="0.4" fill="none" d="M100 -1 Q30 -5 -50 -3 Q-90 -1 -104 1"/>'
-    +'<path fill="url(#fg)" d="M-106 1 Q-114 -13 -136 -38 Q-128 -17 -124 -4 Q-127 3 -134 10 Q-141 16 -144 23 Q-130 18 -116 8 Q-110 4 -106 1 Z"/>'
-    +'<g class="sp"><path d="M48 -15 Q42 -1 48 13"/><path d="M40 -16 Q34 -1 40 14"/><path d="M32 -16 Q26 -1 32 14"/><path d="M24 -15 Q18 -1 24 13"/><path d="M16 -14 Q10 -1 16 12"/></g>'
-    +'<path class="mo" d="M104 9 Q90 14 72 14"/>'
-    +'<path fill="{R}" opacity="0.35" d="M104 9 Q90 13 74 13 Q90 17 102 13 Z"/>'
-    + eye(92,-6,4.8) },
+  shark: { vb:'-153 -82 290 154', len:290, svg:
+    '<path fill="url(#fg)" d="M-8 -26 Q4 -67 27 -76 Q24 -46 38 -24 Z"/>'
+    +'<path fill="url(#fg)" d="M-34 19 Q-49 42 -70 46 Q-57 31 -54 17 Z"/>'
+    +'<path fill="url(#fg)" d="M40 18 Q18 56 -12 66 Q8 42 14 16 Z"/>'
+    +'<path fill="url(#bg)" d="M126 -7 Q112 -22 82 -29 Q29 -42 -32 -34 Q-82 -28 -110 -12 Q-119 -6 -114 1 Q-103 15 -70 23 Q-17 37 42 29 Q90 23 116 11 Q126 6 132 0 Z"/>'
+    +'<path fill="{BL}" opacity="0.68" d="M128 0 Q80 18 21 20 Q-43 23 -102 6 Q-72 29 -15 34 Q56 37 111 13 Z"/>'
+    +'<path fill="url(#fg)" d="M-111 -5 Q-128 -29 -149 -38 Q-141 -15 -138 0 Q-142 19 -152 36 Q-129 28 -112 8 Z"/>'
+    +'<g class="sp"><path d="M72 -25 q-8 10 0 21"/><path d="M82 -23 q-8 10 0 20"/><path d="M92 -20 q-7 9 0 18"/></g>'
+    +'<path class="mo" stroke-width="2" d="M130 0 Q112 9 91 8"/>'
+    + eye(101,-15,4.8) },
 
-  greatwhite: { vb:'-152 -82 290 152', len:290, svg:
-    '<path fill="url(#fg)" d="M20 -28 Q14 -64 -2 -76 Q-2 -50 -16 -30 Q2 -28 20 -28 Z"/>'
-    +'<path fill="url(#fg)" d="M-66 -14 Q-70 -27 -80 -31 Q-77 -21 -83 -13 Q-74 -13 -66 -14 Z"/>'
-    +'<path fill="url(#fg)" d="M40 16 Q26 44 -2 58 Q12 36 22 16 Q30 14 40 16 Z"/>'
-    +'<path fill="url(#fg)" d="M-34 15 Q-41 27 -54 31 Q-46 21 -46 14 Q-40 14 -34 15 Z"/>'
-    +'<path fill="url(#bg)" d="M124 2 Q112 -12 92 -20 Q56 -30 10 -30 Q-40 -28 -84 -16 Q-106 -9 -114 0 Q-106 10 -82 16 Q-40 24 12 23 Q60 21 96 13 Q112 8 124 6 Q119 4 124 2 Z"/>'
-    +'<path fill="{BL}" opacity="0.85" d="M118 6 Q90 16 60 19 L52 13 L42 20 L31 14 L20 21 L8 15 Q-40 22 -82 15 Q-104 10 -112 2 Q-104 12 -80 17 Q-38 25 14 23 Q62 21 98 13 Q113 8 118 6 Z"/>'
-    +'<path fill="url(#fg)" d="M-112 0 Q-122 -16 -144 -40 Q-135 -19 -130 -4 Q-135 12 -148 36 Q-127 15 -112 4 Q-113 2 -112 0 Z"/>'
-    +'<g class="sp"><path d="M50 -16 Q44 -1 50 13"/><path d="M42 -17 Q36 -1 42 14"/><path d="M34 -17 Q28 -1 34 14"/><path d="M26 -16 Q20 -1 26 13"/><path d="M18 -15 Q12 -1 18 12"/></g>'
-    +'<path class="mo" d="M112 8 Q96 14 76 14"/>'
-    +'<path fill="{R}" opacity="0.4" d="M112 8 Q96 13 78 13 Q94 18 108 13 Z"/>'
-    +'<path stroke="#ffffff" stroke-width="1.2" fill="none" opacity="0.75" d="M107 10 l-4 3 l-4 -2 l-4 3 l-4 -2 l-4 3"/>'
-    +'<circle fill="{R}" cx="98" cy="-8" r="4.6"/><circle fill="{D}" cx="98" cy="-8" r="3.2"/><circle fill="#ffffff" opacity="0.6" cx="96.5" cy="-9.5" r="0.9"/>' },
+  hammerhead: { vb:'-163 -99 315 190', len:315, svg:
+    '<path fill="url(#fg)" d="M-13 -24 Q1 -65 26 -76 Q22 -44 39 -22 Z"/>'
+    +'<path fill="url(#fg)" d="M-38 18 Q-54 42 -75 45 Q-61 30 -58 16 Z"/>'
+    +'<path fill="url(#fg)" d="M37 17 Q15 56 -16 65 Q6 40 11 15 Z"/>'
+    +'<path fill="url(#bg)" d="M105 -15 Q81 -29 43 -32 Q-19 -39 -74 -25 Q-105 -17 -116 -6 Q-111 6 -88 16 Q-44 33 19 30 Q72 28 104 14 L119 12 L122 -14 Z"/>'
+    +'<path fill="url(#fg)" d="M-113 -6 Q-132 -30 -155 -40 Q-146 -16 -143 0 Q-148 20 -160 39 Q-133 30 -114 8 Z"/>'
+    +'<path fill="{M}" d="M105 -15 Q120 -28 140 -24 L148 -16 L145 14 L136 22 Q118 22 104 14 L109 7 L128 5 L129 -7 L109 -8 Z"/>'
+    +'<circle fill="{R}" cx="137" cy="-14" r="4.2"/><circle fill="{BL}" cx="137" cy="-14" r="2.3"/>'
+    +'<circle fill="{R}" cx="137" cy="13" r="4.2"/><circle fill="{BL}" cx="137" cy="13" r="2.3"/>'
+    +'<path fill="{BL}" opacity="0.55" d="M119 6 Q73 22 13 23 Q-48 25 -99 9 Q-67 30 -10 32 Q60 33 111 15 Z"/>'
+    +'<g class="sp"><path d="M67 -27 q-8 10 0 20"/><path d="M77 -25 q-8 10 0 20"/><path d="M87 -22 q-7 9 0 18"/></g>'
+    +'<path class="mo" d="M145 6 Q134 11 122 9"/>'
+    + eye(137,-14,4.2) },
 
-  megalodon: { vb:'-190 -112 363 208', len:363, svg:
-    '<g transform="scale(1.25,1.35)">'
-    +'<path fill="url(#fg)" d="M20 -28 Q12 -70 -4 -84 Q-4 -52 -18 -30 Q2 -28 20 -28 Z"/>'
-    +'<path fill="url(#fg)" d="M-66 -14 Q-72 -29 -84 -34 Q-79 -22 -85 -13 Q-75 -13 -66 -14 Z"/>'
-    +'<path fill="url(#fg)" d="M44 16 Q30 50 -4 66 Q12 40 24 16 Q34 14 44 16 Z"/>'
-    +'<path fill="url(#fg)" d="M-34 15 Q-42 29 -56 33 Q-47 22 -47 14 Q-40 14 -34 15 Z"/>'
-    +'<path fill="url(#bg)" d="M128 2 Q114 -16 92 -26 Q54 -38 8 -38 Q-42 -36 -88 -20 Q-112 -11 -120 0 Q-112 12 -86 20 Q-42 30 10 29 Q60 27 98 16 Q114 10 128 6 Q122 4 128 2 Z"/>'
-    +'<path fill="{BL}" opacity="0.85" d="M120 6 Q90 18 58 22 L50 15 L39 23 L28 16 L17 24 L5 17 Q-42 26 -86 18 Q-110 12 -118 2 Q-110 14 -84 20 Q-40 31 12 29 Q62 27 100 16 Q115 10 120 6 Z"/>'
-    +'<path fill="url(#fg)" d="M-118 0 Q-128 -20 -152 -48 Q-142 -22 -136 -4 Q-142 14 -156 44 Q-133 18 -118 4 Q-119 2 -118 0 Z"/>'
-    +'<g class="sp"><path d="M54 -18 Q48 -1 54 15"/><path d="M45 -19 Q39 -1 45 16"/><path d="M36 -19 Q30 -1 36 16"/><path d="M27 -18 Q21 -1 27 15"/><path d="M18 -17 Q12 -1 18 14"/></g>'
-    +'<path class="mo" stroke-width="2.2" d="M118 8 Q96 18 70 17"/>'
-    +'<path fill="{R}" opacity="0.45" d="M118 8 Q96 16 72 15 Q94 24 112 15 Z"/>'
-    +'<path stroke="#ffffff" stroke-width="1.6" fill="none" opacity="0.85" d="M114 11 l-5 5 l-5 -3 l-5 5 l-5 -3 l-5 5 l-5 -3 l-5 5"/>'
-    +'<path stroke="#ffffff" stroke-width="1.2" fill="none" opacity="0.6" d="M110 14 l-5 4 l-5 -2 l-5 4 l-5 -2"/>'
-    +'<circle fill="{R}" cx="100" cy="-12" r="5.4"/><circle fill="{D}" cx="100" cy="-12" r="3.8"/><circle fill="#ffffff" opacity="0.6" cx="98.4" cy="-13.6" r="1"/>'
-    +'</g>' },
+  greatwhite: { vb:'-170 -103 326 194', len:326, svg:
+    '<path fill="url(#fg)" d="M-5 -31 Q10 -83 43 -94 Q35 -53 53 -27 Z"/>'
+    +'<path fill="url(#fg)" d="M-49 22 Q-66 52 -91 57 Q-74 37 -70 19 Z"/>'
+    +'<path fill="url(#fg)" d="M44 21 Q18 70 -20 81 Q7 49 13 18 Z"/>'
+    +'<path fill="url(#bg)" d="M141 -11 Q126 -30 91 -40 Q31 -57 -38 -46 Q-96 -38 -126 -18 Q-139 -9 -134 1 Q-121 19 -81 30 Q-19 47 49 37 Q103 29 132 13 Q143 7 149 -1 Z"/>'
+    +'<path fill="{BL}" opacity="0.85" d="M147 -1 Q105 18 44 22 Q-27 28 -122 5 Q-93 34 -30 43 Q47 50 111 22 Z"/>'
+    +'<path fill="url(#fg)" d="M-130 -7 Q-147 -37 -167 -52 Q-160 -21 -155 -2 Q-161 24 -170 47 Q-146 34 -130 10 Z"/>'
+    +'<g class="sp"><path d="M84 -36 q-10 13 0 28"/><path d="M96 -32 q-10 12 0 26"/><path d="M108 -28 q-9 11 0 23"/></g>'
+    +'<path class="mo" stroke-width="2.6" d="M147 -1 Q124 15 96 13"/>'
+    +'<g fill="{R}" opacity="0.8"><path d="M130 5 l5 6 l5 -8 Z"/><path d="M119 8 l5 6 l5 -8 Z"/><path d="M108 10 l5 6 l5 -8 Z"/></g>'
+    + eye(112,-24,5.4) },
 
-  orca: { vb:'-182 -100 315 185', len:315, svg:
-    '<path fill="url(#fg)" d="M6 -34 Q10 -78 0 -92 Q-6 -62 -22 -36 Q-8 -34 6 -34 Z"/>'
-    +'<path fill="url(#bg)" d="M120 4 Q112 -10 96 -20 Q60 -36 8 -38 Q-50 -36 -96 -22 Q-120 -12 -128 0 Q-120 12 -96 20 Q-52 32 8 32 Q64 30 100 18 Q114 12 120 8 Q116 6 120 4 Z"/>'
-    +'<path fill="{BL}" opacity="0.95" d="M118 8 Q84 26 24 29 Q-44 31 -94 20 Q-118 12 -126 2 Q-116 20 -74 27 Q-14 35 46 29 Q92 24 118 8 Z"/>'
-    +'<path fill="{BL}" opacity="0.95" d="M-4 27 Q4 8 22 0 Q12 16 10 28 Q3 28 -4 27 Z"/>'
-    +'<ellipse cx="82" cy="-16" rx="16" ry="7" fill="{BL}" opacity="0.98" transform="rotate(-12 82 -16)"/>'
-    +'<circle cx="98" cy="-8" r="10" fill="#ffffff" opacity="0.85"/>'
-    +'<circle cx="88" cy="6" r="8" fill="#ffffff" opacity="0.80"/>'
-    +'<path fill="url(#fg)" d="M52 20 Q52 46 36 60 Q22 66 12 62 Q26 48 30 22 Q40 18 52 20 Z"/>'
-    +'<path fill="url(#fg)" d="M-128 0 Q-140 -8 -150 -20 Q-160 -30 -174 -36 Q-164 -19 -160 -6 Q-164 -2 -172 0 Q-164 2 -159 2 Q-164 14 -176 34 Q-158 27 -144 14 Q-134 6 -128 6 Q-127 3 -128 0 Z"/>'
-    +'<path class="mo" d="M118 6 Q100 12 80 13"/>'
-    + eye(98,-2,5) },
+  orca: { vb:'-194 -112 350 215', len:350, svg:
+    '<path fill="url(#bg)" d="M143 -8 Q127 -35 83 -49 Q20 -70 -52 -57 Q-112 -47 -145 -20 Q-158 -10 -151 2 Q-136 24 -91 38 Q-24 59 50 46 Q111 36 140 15 Q151 7 152 0 Z"/>'
+    +'<path fill="{D}" d="M143 -8 Q126 -34 84 -48 Q18 -68 -50 -56 Q-105 -47 -140 -23 Q-108 -38 -61 -34 Q-24 -31 -1 -12 Q30 11 72 10 Q111 9 148 -2 Z"/>'
+    +'<path fill="{BL}" d="M146 0 Q113 21 68 25 Q21 29 -13 12 Q-47 -4 -83 2 Q-118 7 -146 0 Q-128 27 -82 41 Q-19 60 49 46 Q111 36 140 15 Z"/>'
+    +'<path fill="{BL}" d="M83 -34 Q102 -27 112 -15 Q95 -9 76 -16 Q64 -22 58 -32 Q70 -38 83 -34 Z"/>'
+    +'<path fill="{A}" opacity="0.8" d="M43 -41 Q63 -44 75 -36 Q60 -25 38 -26 Q26 -30 22 -37 Q31 -41 43 -41 Z"/>'
+    +'<path fill="{D}" d="M-2 -45 Q1 -95 25 -105 Q32 -102 30 -88 Q26 -57 17 -40 Z"/>'
+    +'<path fill="{D}" d="M30 33 Q12 73 -26 91 Q-9 55 2 29 Z"/>'
+    +'<path fill="{D}" d="M-144 -8 Q-162 -37 -188 -48 Q-179 -20 -176 -3 Q-182 24 -193 43 Q-165 33 -145 12 Z"/>'
+    +'<path class="mo" stroke-width="2.3" d="M149 1 Q131 12 108 13"/>'
+    + eye(118,-19,5) },
 
-  whale: { vb:'-262 -110 480 220', len:480, svg:
-    '<path fill="url(#fg)" d="M-56 -54 Q-52 -80 -38 -86 Q-42 -68 -32 -54 Q-44 -51 -56 -54 Z"/>'
-    +'<path fill="url(#bg)" d="M198 16 Q190 2 172 -12 Q128 -44 58 -58 Q-20 -70 -96 -58 Q-158 -46 -182 -12 Q-190 2 -188 14 Q-166 36 -122 46 Q-46 60 48 54 Q130 48 176 32 Q192 26 198 22 Q193 19 198 16 Z"/>'
-    +'<path fill="#ffffff" opacity="0.13" d="M172 32 Q80 52 -70 46 Q-150 38 -182 18 Q-112 42 8 48 Q108 48 172 32 Z"/>'
-    +'<g stroke="{F}" stroke-width="1.6" opacity="0.45" fill="none"><path d="M182 24 Q112 42 22 44"/><path d="M178 30 Q118 46 42 48"/><path d="M170 36 Q126 48 68 51"/></g>'
-    +'<path fill="url(#fg)" d="M46 44 Q60 76 92 94 Q74 94 60 86 Q42 74 32 50 Q38 44 46 44 Z"/>'
-    +'<g fill="{F}"><circle cx="64" cy="70" r="2.4"/><circle cx="74" cy="80" r="2.4"/><circle cx="84" cy="88" r="2.2"/></g>'
-    +'<path fill="url(#fg)" d="M-182 2 Q-196 -6 -208 -18 Q-228 -38 -256 -50 Q-240 -26 -232 -8 Q-237 -2 -248 0 Q-238 4 -230 4 Q-236 22 -258 52 Q-228 40 -206 22 Q-192 12 -184 10 Q-183 6 -182 2 Z"/>'
-    +'<g fill="{F}" opacity="0.8"><circle cx="180" cy="8" r="2.6"/><circle cx="188" cy="16" r="2.4"/><circle cx="172" cy="0" r="2.4"/><circle cx="162" cy="-8" r="2.2"/><circle cx="150" cy="-14" r="2"/></g>'
-    +'<path class="mo" stroke-width="2.2" d="M194 20 Q122 38 32 40"/>'
-    + eye(144,16,6) },
+  whale: { vb:'-274 -100 510 196', len:510, svg:
+    '<path fill="url(#bg)" d="M218 -7 Q200 -31 151 -43 Q57 -66 -54 -50 Q-153 -37 -205 -13 Q-224 -5 -218 4 Q-202 24 -146 38 Q-48 61 61 47 Q156 36 205 16 Q221 9 228 1 Z"/>'
+    +'<path fill="{BL}" opacity="0.52" d="M223 2 Q151 29 58 33 Q-63 40 -203 9 Q-156 45 -55 55 Q79 64 192 24 Z"/>'
+    +'<path fill="url(#fg)" d="M-91 -44 Q-72 -63 -48 -61 Q-61 -49 -73 -39 Z"/>'
+    +'<path fill="url(#fg)" d="M33 37 Q18 72 -20 88 Q0 57 3 34 Z"/>'
+    +'<path fill="url(#fg)" d="M-211 -3 Q-229 -20 -251 -31 Q-267 -41 -273 -34 Q-265 -18 -246 -5 Q-258 0 -269 13 Q-252 15 -235 10 Q-225 7 -213 8 Z"/>'
+    +'<g stroke="{F}" stroke-width="2" opacity="0.55" fill="none"><path d="M208 13 Q124 39 19 40"/><path d="M199 21 Q121 45 35 46"/><path d="M186 28 Q125 48 59 50"/></g>'
+    +'<path class="mo" stroke-width="2.5" d="M225 2 Q152 31 48 35"/>'
+    +'<path fill="{A}" opacity="0.65" d="M169 -34 q10 -12 20 0 q-10 -6 -20 0 Z"/>'
+    + eye(169,-18,5.6) },
 
-  // mythic abyssal leviathan — bigger than the blue whale, lit from within
-  leviathan: { vb:'-345 -150 640 300', len:640, svg:
-    '<g transform="scale(1.32,1.28)">'
-    +'<path fill="url(#fg)" d="M-60 -58 Q-54 -92 -36 -100 Q-42 -76 -30 -56 Q-46 -53 -60 -58 Z"/>'
-    +'<path fill="url(#bg)" d="M204 16 Q196 0 176 -16 Q130 -50 56 -66 Q-24 -80 -102 -64 Q-166 -50 -190 -12 Q-198 4 -196 16 Q-172 40 -126 51 Q-48 66 50 60 Q134 53 180 35 Q196 28 204 23 Q198 20 204 16 Z"/>'
-    +'<path fill="#ffffff" opacity="0.13" d="M176 34 Q80 56 -74 50 Q-156 41 -190 20 Q-116 46 8 52 Q112 52 176 34 Z"/>'
-    // ridged, spined spine
-    +'<g fill="{F}" opacity="0.9">'
-    +'<path d="M96 -50 l10 -26 l8 26 Z"/><path d="M56 -60 l11 -30 l9 30 Z"/><path d="M12 -66 l12 -34 l10 34 Z"/>'
-    +'<path d="M-34 -66 l12 -32 l10 32 Z"/><path d="M-80 -60 l11 -27 l9 27 Z"/><path d="M-124 -50 l10 -22 l8 22 Z"/>'
-    +'</g>'
-    // bioluminescent flank constellation
-    +'<g fill="{A}" opacity="0.95"><circle cx="150" cy="-6" r="3.4"/><circle cx="112" cy="6" r="4"/><circle cx="70" cy="16" r="4.4"/>'
-    +'<circle cx="26" cy="22" r="4.4"/><circle cx="-20" cy="24" r="4.2"/><circle cx="-66" cy="20" r="3.8"/>'
-    +'<circle cx="-112" cy="12" r="3.4"/><circle cx="-152" cy="2" r="3"/>'
-    +'<circle cx="88" cy="-22" r="2.6"/><circle cx="34" cy="-30" r="2.8"/><circle cx="-24" cy="-32" r="2.6"/><circle cx="-82" cy="-26" r="2.4"/></g>'
-    +'<path stroke="{A}" stroke-width="1.4" fill="none" opacity="0.45" d="M150 -6 Q70 12 -20 24 Q-100 20 -152 2"/>'
-    // throat pleats
-    +'<g stroke="{F}" stroke-width="1.7" opacity="0.45" fill="none"><path d="M188 26 Q114 46 20 49"/><path d="M184 33 Q120 51 42 54"/><path d="M176 40 Q128 54 70 57"/></g>'
-    // twin pectoral wings
-    +'<path fill="url(#fg)" d="M50 48 Q66 86 104 108 Q82 108 64 98 Q42 84 32 54 Q40 48 50 48 Z"/>'
-    +'<path fill="url(#fg)" opacity="0.75" d="M6 46 Q14 78 40 98 Q20 96 6 84 Q-10 68 -14 50 Q-4 45 6 46 Z"/>'
-    +'<g fill="{A}" opacity="0.8"><circle cx="70" cy="76" r="2.6"/><circle cx="82" cy="88" r="2.4"/><circle cx="94" cy="98" r="2.2"/></g>'
-    // vast forked fluke with trailing tendrils
-    +'<path fill="url(#fg)" d="M-190 2 Q-206 -8 -220 -22 Q-244 -46 -278 -60 Q-258 -30 -248 -8 Q-254 -2 -268 0 Q-256 5 -246 5 Q-254 26 -280 62 Q-244 48 -218 26 Q-202 14 -192 12 Q-191 7 -190 2 Z"/>'
-    +'<g stroke="{A}" stroke-width="1.3" fill="none" opacity="0.5">'
-    +'<path d="M-246 -6 Q-278 -18 -308 -40"/><path d="M-246 6 Q-280 22 -306 50"/><path d="M-250 0 Q-290 2 -318 6"/></g>'
-    // blowhole spray + mouth
-    +'<g fill="{A}" opacity="0.85"><circle cx="186" cy="8" r="3"/><circle cx="194" cy="17" r="2.8"/><circle cx="176" cy="-1" r="2.8"/><circle cx="164" cy="-10" r="2.6"/><circle cx="150" cy="-18" r="2.2"/></g>'
-    +'<path class="mo" stroke-width="2.6" d="M200 20 Q124 42 30 44"/>'
-    +'<circle fill="{A}" opacity="0.35" cx="150" cy="16" r="13"/>'
-    +'<circle fill="{R}" cx="150" cy="16" r="7"/><circle fill="{D}" cx="150" cy="16" r="4.6"/>'
-    +'<circle fill="#ffffff" opacity="0.7" cx="148" cy="14" r="1.6"/>'
-    +'</g>' },
+  megalodon: { vb:'-223 -137 420 256', len:420, svg:
+    '<path fill="url(#fg)" d="M-12 -39 Q7 -106 50 -124 Q42 -67 66 -33 Z"/>'
+    +'<path fill="url(#fg)" d="M-65 28 Q-88 67 -120 73 Q-97 47 -93 24 Z"/>'
+    +'<path fill="url(#fg)" d="M49 27 Q15 88 -34 103 Q1 62 8 24 Z"/>'
+    +'<path fill="url(#bg)" d="M178 -18 Q159 -43 116 -56 Q40 -80 -47 -64 Q-121 -53 -159 -27 Q-176 -15 -170 0 Q-153 27 -101 42 Q-24 65 62 50 Q132 39 169 17 Q183 8 190 -2 Z"/>'
+    +'<path fill="{BL}" opacity="0.75" d="M187 -2 Q130 24 54 30 Q-39 36 -156 8 Q-118 48 -40 59 Q59 67 148 29 Z"/>'
+    +'<path fill="url(#fg)" d="M-165 -10 Q-188 -50 -217 -65 Q-207 -27 -202 -2 Q-210 31 -222 61 Q-188 45 -166 13 Z"/>'
+    +'<path fill="{R}" opacity="0.75" d="M188 -2 Q157 30 116 25 Q139 10 148 -8 Z"/>'
+    +'<g fill="{BL}"><path d="M169 5 l7 10 l7 -14 Z"/><path d="M156 11 l7 10 l7 -14 Z"/><path d="M143 16 l7 10 l7 -14 Z"/><path d="M130 20 l7 9 l7 -13 Z"/></g>'
+    +'<g class="sp"><path d="M104 -52 q-12 17 0 34"/><path d="M119 -47 q-12 16 0 32"/><path d="M134 -41 q-11 15 0 29"/></g>'
+    +'<path class="mo" stroke-width="3" d="M189 -2 Q157 31 116 25"/>'
+    + eye(145,-31,6.8) },
 
-  hammerhead: { vb:'-160 -85 300 170', len:300, svg:
-    '<g transform="translate(-90,0) scale(-1,1)"><path fill="url(#fg)" d="M-48 -22 Q-42 -38 -28 -40 Q-20 -40 -16 -35 Q-24 -30 -32 -26 Q-40 -22 -48 -22 Z"/>'
-    +'<path class="ray" d="M-42 -24 L-36 -36"/><path class="ray" d="M-30 -27 L-24 -37"/></g>'
-    +'<path fill="url(#fg)" d="M-56 18 Q-62 32 -74 34 Q-68 24 -66 16 Q-60 16 -56 18 Z"/>'
-    +'<path fill="url(#fg)" d="M4 22 Q-2 36 -14 40 Q-10 28 -8 20 Q-2 20 4 22 Z"/>'
-    +'<path fill="url(#bg)" d="M110 0 Q88 -8 64 -12 Q20 -18 -30 -16 Q-80 -14 -100 0 Q-80 14 -30 16 Q20 18 64 12 Q88 8 110 2 Q104 1 110 0 Z"/>'
-    +'<path fill="#ffffff" opacity="0.14" d="M96 -8 Q40 -14 -20 -13 Q-70 -11 -96 -2 Q-50 -10 10 -11 Q60 -11 96 -8 Z"/>'
-    +'<g stroke="{F}" stroke-width="0.9" opacity="0.35" fill="none"><line x1="60" y1="-6" x2="58" y2="6"/><line x1="40" y1="-8" x2="38" y2="8"/><line x1="20" y1="-9" x2="18" y2="9"/><line x1="0" y1="-10" x2="-2" y2="10"/><line x1="-20" y1="-10" x2="-22" y2="10"/><line x1="-40" y1="-9" x2="-42" y2="9"/></g>'
-    +'<path fill="url(#fg)" d="M-98 0 Q-110 -13 -124 -18 Q-118 -8 -117 0 Q-118 8 -124 18 Q-110 13 -98 0 Z"/>'
-    +'<path class="ray" d="M-104 -4 L-118 -12"/><path class="ray" d="M-104 4 L-118 12"/>'
-    +'<path fill="url(#ch)" d="M72 -10 A24 18 0 0 0 72 12 A20 18 0 0 1 62 1 A20 18 0 0 1 72 -10 Z"/>'
-    +'<g fill="{R}" opacity="0.6"><circle cx="76" cy="-8" r="2.2"/><circle cx="76" cy="8" r="2.2"/></g>'
-    +'<path class="mo" d="M104 2 Q88 6 72 7"/>'
-    + eye(88,-4,4.8) },
+  leviathan: { vb:'-343 -152 640 300', len:640, svg:
+    '<path fill="url(#bg)" d="M275 -5 Q250 -39 192 -55 Q97 -83 -11 -68 Q-119 -54 -185 -19 Q-212 -5 -204 13 Q-183 48 -113 66 Q-15 91 96 72 Q202 54 254 25 Q275 13 286 2 Z"/>'
+    +'<path fill="{BL}" opacity="0.42" d="M279 3 Q194 39 91 49 Q-27 61 -188 21 Q-137 67 -30 80 Q111 91 235 37 Z"/>'
+    +'<g fill="{F}"><path d="M-122 -44 L-104 -87 L-86 -51 Z"/><path d="M-77 -58 L-55 -108 L-38 -62 Z"/><path d="M-28 -67 L-2 -124 L15 -66 Z"/><path d="M24 -68 L53 -116 L65 -62 Z"/><path d="M77 -59 L106 -101 L115 -51 Z"/><path d="M128 -47 L157 -80 L160 -37 Z"/></g>'
+    +'<path fill="url(#fg)" d="M35 57 Q19 108 -29 133 Q-7 84 1 53 Z"/>'
+    +'<path fill="url(#fg)" d="M-199 2 Q-224 -25 -255 -47 Q-294 -76 -325 -69 Q-301 -38 -274 -12 Q-305 -3 -339 18 Q-300 28 -262 15 Q-230 37 -292 81 Q-246 70 -204 25 Z"/>'
+    +'<g fill="{A}" opacity="0.95"><circle cx="214" cy="-27" r="5"/><circle cx="169" cy="-8" r="4.5"/><circle cx="119" cy="8" r="4.2"/><circle cx="67" cy="19" r="4.5"/><circle cx="12" cy="27" r="4.3"/><circle cx="-46" cy="29" r="4"/><circle cx="-103" cy="24" r="3.7"/><circle cx="-151" cy="14" r="3.4"/></g>'
+    +'<path stroke="{A}" stroke-width="2" opacity="0.6" fill="none" d="M214 -27 Q116 14 12 27 Q-84 37 -151 14"/>'
+    +'<path fill="{R}" d="M283 2 Q246 38 198 29 Q229 12 241 -8 Z"/>'
+    +'<g fill="{BL}"><path d="M264 8 l8 12 l8 -16 Z"/><path d="M249 16 l8 12 l8 -16 Z"/><path d="M233 22 l8 12 l8 -16 Z"/></g>'
+    +'<path class="mo" stroke-width="3.2" d="M283 2 Q246 38 198 29"/>'
+    +'<circle fill="{A}" opacity="0.4" cx="235" cy="-25" r="15"/><circle fill="{R}" cx="235" cy="-25" r="8"/><circle fill="{D}" cx="237" cy="-25" r="4.8"/><circle fill="#ffffff" cx="232" cy="-28" r="1.8"/>'
+    +'<g stroke="{A}" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.75"><path d="M-272 -12 Q-310 -34 -333 -55"/><path d="M-270 2 Q-314 5 -340 17"/><path d="M-266 14 Q-301 44 -321 68"/></g>' },
 
-  leopardseal: { vb:'-140 -60 300 120', len:300, svg:
-    '<g transform="translate(-60,0) scale(-1,1)"><path fill="url(#fg)" d="M-42 -18 Q-36 -32 -22 -34 Q-14 -34 -10 -29 Q-20 -24 -28 -20 Q-36 -17 -42 -18 Z"/>'
-    +'<path class="ray" d="M-36 -20 L-30 -30"/><path class="ray" d="M-24 -23 L-18 -31"/></g>'
-    +'<path fill="url(#fg)" d="M-44 16 Q-50 28 -62 30 Q-54 22 -52 14 Q-46 14 -44 16 Z"/>'
-    +'<path fill="url(#fg)" d="M8 16 Q2 28 -10 32 Q-6 22 -4 14 Q2 14 8 16 Z"/>'
-    +'<path fill="url(#bg)" d="M112 0 Q100 -10 82 -16 Q50 -26 0 -24 Q-50 -22 -80 -12 Q-100 -6 -106 0 Q-100 6 -80 12 Q-50 22 0 24 Q50 26 82 16 Q100 10 112 2 Q106 1 112 0 Z"/>'
-    +'<path fill="#ffffff" opacity="0.12" d="M98 -8 Q40 -18 -30 -16 Q-80 -12 -102 -2 Q-54 -12 14 -14 Q68 -14 98 -8 Z"/>'
-    +'<g fill="{R}" opacity="0.55"><circle cx="70" cy="-8" r="2.4"/><circle cx="50" cy="6" r="2.2"/><circle cx="28" cy="-10" r="2.3"/><circle cx="4" cy="8" r="2.1"/><circle cx="-20" cy="-9" r="2.2"/><circle cx="-44" cy="5" r="2.1"/><circle cx="36" cy="14" r="2"/></g>'
-    +'<path fill="url(#fg)" d="M-104 0 Q-116 -14 -130 -20 Q-124 -8 -122 0 Q-124 8 -130 20 Q-116 14 -104 0 Z"/>'
-    +'<path class="ray" d="M-110 -4 L-124 -12"/><path class="ray" d="M-110 4 L-124 12"/>'
-    +'<path fill="url(#ch)" d="M74 -12 A26 20 0 0 0 74 14 A22 20 0 0 1 63 1 A22 20 0 0 1 74 -12 Z"/>'
-    +'<path class="sp" d="M72 -13 Q62 1 72 15" opacity="0.4"/>'
-    +'<path class="mo" d="M108 2 Q90 8 70 9"/>'
-    + eye(90,-6,5) }
+  leopardseal: { vb:'-215 -50 420 130', len:420, svg:
+    // torpedo-shaped seal torso — smooth back, no dorsal/pectoral fish fins
+    '<path fill="url(#bg)" d="M158 -6 Q152 -26 126 -35 Q84 -50 20 -54 Q-50 -58 -105 -46 Q-142 -37 -150 -18 Q-154 -6 -150 4 Q-146 16 -128 24 Q-90 38 -30 44 Q40 50 100 44 Q136 38 152 22 Q160 10 158 -6 Z"/>'
+    +'<path fill="{BL}" opacity="0.5" d="M152 18 Q112 36 46 42 Q-30 48 -110 34 Q-70 48 0 50 Q76 51 128 34 Q142 28 152 18 Z"/>'
+    // small rounded head with short blunt muzzle
+    +'<path fill="url(#bg)" d="M150 -10 Q168 -15 182 -6 Q190 0 184 8 Q172 16 156 14 Q146 8 144 -2 Q146 -7 150 -10 Z"/>'
+    // foreflipper — broad paddle, angled back beneath the chest
+    +'<path fill="url(#fg)" d="M66 30 Q82 52 74 78 Q60 82 48 74 Q58 54 52 32 Q58 26 66 30 Z"/>'
+    // rear flippers — fused paddle pair at the tail, not a forked fish tail
+    +'<path fill="url(#fg)" d="M-150 -8 Q-172 -22 -204 -26 Q-186 -8 -182 6 Q-196 14 -212 22 Q-186 22 -164 12 Q-154 4 -148 -2 Z"/>'
+    +'<path fill="url(#fg)" opacity="0.8" d="M-146 10 Q-164 22 -182 42 Q-160 40 -144 26 Q-134 18 -128 12 Z"/>'
+    // leopard spots on flank
+    +'<g fill="{R}" opacity="0.6"><ellipse cx="88" cy="-24" rx="4.6" ry="3"/><ellipse cx="56" cy="-34" rx="4.2" ry="2.8"/><ellipse cx="22" cy="-38" rx="4.6" ry="3"/><ellipse cx="-14" cy="-38" rx="4.2" ry="2.8"/><ellipse cx="-50" cy="-33" rx="4.6" ry="3"/><ellipse cx="-86" cy="-24" rx="4.2" ry="2.8"/><ellipse cx="74" cy="8" rx="4.2" ry="2.6"/><ellipse cx="38" cy="20" rx="4" ry="2.6"/><ellipse cx="0" cy="26" rx="4.2" ry="2.6"/><ellipse cx="-40" cy="28" rx="4" ry="2.6"/><ellipse cx="-80" cy="22" rx="3.8" ry="2.4"/></g>'
+    +'<path class="mo" stroke-width="2" d="M184 4 Q173 10 160 9"/>'
+    +'<g stroke="{A}" stroke-width="1.3" stroke-linecap="round" fill="none"><path d="M180 1 Q196 -3 208 -10"/><path d="M178 6 Q192 8 204 12"/><path d="M180 -3 Q194 -11 204 -20"/></g>'
+    + eye(166,-6,4.8) }
   };
 
   // rasterized sprite cache for the current palette
@@ -887,10 +811,10 @@
     { type:'hammerhead', weight:3, size:[110,160], speed:[18,30], depthFt:[12,32] },
     { type:'greatwhite', weight:5, size:[160,220], speed:[20,32], depthFt:[28,50] },
     { type:'orca', weight:8, size:[200,280], speed:[16,26], depthFt:[8,28] },
-    { type:'leopardseal', weight:2.5, size:[140,200], speed:[20,28], depthFt:[6,20] },
+    { type:'leopardseal', weight:4.5, size:[140,200], speed:[20,28], depthFt:[6,20] },
     { type:'whale', weight:4, size:[210,280], speed:[8,14], depthFt:[8,26] },
-    { type:'megalodon', weight:1.2, size:[380,480], speed:[14,24], depthFt:[34,56] },
-    { type:'leviathan', weight:0.9, size:[520,660], speed:[6,11], depthFt:[16,44] }
+    { type:'megalodon', weight:3.5, size:[380,480], speed:[14,24], depthFt:[34,56] },
+    { type:'leviathan', weight:2.8, size:[520,660], speed:[6,11], depthFt:[16,44] }
   ];
   var totalWeight = creatureTypes.reduce(function(s,c){return s+c.weight;},0);
   function pickCreatureType(){
@@ -997,7 +921,8 @@
       }
       f.curDepth = Math.max(1, curDepth);
       if (f.eatCooldown > 0) f.eatCooldown -= dt;
-      if (f.x < -380 || f.x > plotW+380) liveFish.splice(i,1);
+      var despawnMargin = f.size + 120;
+      if (f.x < -despawnMargin || f.x > plotW+despawnMargin) liveFish.splice(i,1);
     }
     tryPredation();
     for (var k=chompFx.length-1;k>=0;k--){
